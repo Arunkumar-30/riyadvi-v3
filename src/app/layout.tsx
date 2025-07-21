@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 import FooterComponent from "@/components/footer/footer";
 
 import ScrollAndContactButtons from "@/components/ui-section/ScrollToTop";
+import AOSProvider from "@/components/AOSProvider";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,6 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`antialiased`}>
         <NavbarComponent />
+        <AOSProvider />
         {children}
 
         <FooterComponent />

@@ -14,7 +14,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 max-md:px-6 flex items-center justify-between gap-y-6 py-16 max-md:flex-col">
           {/* Founder Text Content */}
           <div className="md:w-[50%] flex flex-col justify-center mt-8 md:mt-0">
-            <h2 className="text-[#161C52] text-[44px] max-md:text-[28px] font-semibold leading-snug">
+            <h2 className="text-[#161C52] text-[44px] max-md:text-[28px] font-semibold leading-snug h2-ani">
               About
             </h2>
             <p className="text-[#484A61] text-[18px] max-md:text-[14px] mt-6 leading-relaxed">
