@@ -1,5 +1,4 @@
 import CommonBannerComponent from "@/components/ui-section/CommonBanner";
-import TrustedPartner from "@/components/ui-section/TrustedPartners";
 
 const About = () => {
   return (
@@ -103,7 +102,79 @@ const About = () => {
           </div>
         </div>
       </div>
-      <TrustedPartner />
+      <div className="bg-[#fff]">
+        <div className="max-w-7xl mx-auto flex justify-between gap-y-6 py-16 max-md:flex-col">
+          {/* Founder Text Content */}
+          <div className="md:w-[50%] flex flex-col justify-center mt-8 md:mt-0">
+            <h2 className="text-[#161C52] text-[44px] max-md:text-[28px] font-semibold leading-snug">
+              Meet the Founder
+            </h2>
+            <p className="text-[#484A61] text-[18px] max-md:text-[14px] mt-6 leading-relaxed">
+              Yuvaraj, the heart and soul behind Aryu Enterprises, brings
+              together a unique blend of expertise and passion. With over 15
+              years of experience in technology services, branding, and
+              marketing, Yuvaraj founded Aryu Enterprises to address the
+              challenges he witnessed in the industry.
+              <br />
+              <br />
+              <span>
+                His journey, driven by a desire for meaningful change, inspired
+                the &quot;Client First&quot; mantra—ensuring innovation,
+                branding excellence, and genuine client partnerships.
+              </span>
+              <br />
+              <span>
+                His journey, driven by a desire for meaningful change, inspired
+                the &quot;Client First&quot; mantra—ensuring innovation,
+                branding excellence, and genuine client partnerships.
+              </span>
+            </p>
+          </div>
+          {/* Founder Image */}
+          <div className="md:w-[40%] md:h-[450px] max-md:mx-auto overflow-hidden rounded-4xl">
+            <img
+              alt="Mr. Yuvaraj, founder of Aryu Enterprises, leading innovation and growth in the industry."
+              className="w-full h-full object-cover duration-400 hover:scale-110 transition-transform"
+              src="/home/about-2.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="bg-[#fff] mb-10">
+        <div className="max-w-7xl mx-auto flex justify-between gap-y-6 py-16 max-md:flex-col space-x-6">
+          {/* Founder Image */}
+          <div className="flex">
+            <img
+              alt="Mr. Yuvaraj, founder of Aryu Enterprises, leading innovation and growth in the industry."
+              className="w-60 h-60 object-cover duration-400 hover:scale-110 transition-transform"
+              src="/home/about-2.jpg"
+            />
+          </div>
+
+          {/* Founder Text Content */}
+          <div className="flex-1">
+            <h2 className="text-[#161C52] text-[44px] max-md:text-[28px] font-semibold leading-snug">
+              Meet the Founder
+            </h2>
+            <p className="text-[#484A61] text-[18px] max-md:text-[14px] mt-6 leading-relaxed">
+              Yuvaraj, the heart and soul behind Aryu Enterprises, brings
+              together a unique blend of expertise and passion. With over 15
+              years of experience in technology services, branding, and
+              marketing, Yuvaraj founded Aryu Enterprises to address the
+              challenges he witnessed in the industry.
+              <br />
+            </p>
+          </div>
+        </div>
+        <div className="max-w-7xl mx-auto ">
+          <img
+            alt="Mr. Yuvaraj, founder of Aryu Enterprises, leading innovation and growth in the industry."
+            className="w-full h-96 object-cover "
+            src="/home/team_ban.jpeg"
+          />
+        </div>
+      </div>
+
       <div className="pt-18 max-w-7xl mx-auto">
         <h2 className="text-[#161C52] text-[44px] max-md:text-[28px] font-semibold md:leading-[3rem]">
           Legacy of Innovation
@@ -172,6 +243,7 @@ const About = () => {
           </div>
         </div>
       </div>
+
       {/* 
       <div className="w-full flex justify-center">
         <div className="w-[90%] lg:w-[80%]">
