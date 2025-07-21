@@ -8,7 +8,7 @@ const blogPosts = [
     date: "Mar 16, 2020",
     category: "Marketing",
     description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incidunt.",
+      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat conssedcectetur nulla deserunt vel iusto corrupti dicta laboris incidunt.",
     author: {
       name: "Michael Foster",
       role: "Co-Founder / CTO",
