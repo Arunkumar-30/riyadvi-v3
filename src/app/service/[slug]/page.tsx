@@ -628,6 +628,110 @@ const allServices = [
       },
     ],
   },
+  {
+    slug: "ui-ux-design",
+    title: "UI/UX Design",
+    subTitle: "Crafting Intuitive and Engaging Digital Experiences",
+    mainImag: "/home/uiux-1.jpg",
+    titlePara:
+      "Exceptional design is at the heart of every successful digital product. Our UI/UX design services focus on creating visually appealing, user-friendly, and conversion-driven interfaces. From wireframing to high-fidelity prototypes, we ensure every step enhances the user's journey and meets your business goals. Partner with us to bring creativity and functionality together in every pixel.",
+    offering: [
+      {
+        title: "User Research & Persona Building",
+        description:
+          "We conduct in-depth research to understand user behavior and craft personas that guide effective design decisions aligned with real user needs.",
+      },
+      {
+        title: "Wireframing & Prototyping",
+        description:
+          "We build low and high-fidelity wireframes and interactive prototypes to validate functionality, user flows, and structure before development begins.",
+      },
+      {
+        title: "UI Design",
+        description:
+          "Our design team creates pixel-perfect, responsive, and visually stunning interfaces that reflect your brand and enhance usability across devices.",
+      },
+      {
+        title: "UX Design",
+        description:
+          "We optimize user journeys by simplifying complex workflows, ensuring seamless navigation, and focusing on task efficiency and user satisfaction.",
+      },
+      {
+        title: "Mobile App Design",
+        description:
+          "We create responsive and intuitive mobile interfaces tailored for both iOS and Android platforms to provide a consistent and engaging experience.",
+      },
+      {
+        title: "Design System Creation",
+        description:
+          "We build reusable design systems and component libraries to ensure consistency, scalability, and faster product iterations across your platforms.",
+      },
+    ],
+    benifits: [
+      {
+        imag: "/home/uiux-2.jpg",
+        title: "Improved User Engagement",
+        description:
+          "Intuitive and aesthetic interfaces enhance user satisfaction, increase interaction rates, and encourage longer engagement with your product.",
+      },
+      {
+        imag: "/home/uiux-2.jpg",
+        title: "Higher Conversion Rates",
+        description:
+          "Optimized design funnels and user flows lead to improved conversion metrics and increased ROI on your digital platforms.",
+      },
+      {
+        imag: "/home/uiux-2.jpg",
+        title: "Brand Consistency",
+        description:
+          "Unified visual language and design elements strengthen your brand identity and create a professional, trustworthy impression.",
+      },
+      {
+        imag: "/home/uiux-2.jpg",
+        title: "Faster Development",
+        description:
+          "Well-structured UI kits and design systems reduce developer guesswork and speed up the product development lifecycle.",
+      },
+    ],
+    industry: [
+      {
+        imag: "/home/uiux-3.jpg",
+        title: "E-commerce",
+        description:
+          "Designing seamless product browsing, filtering, and checkout experiences to boost online sales and customer satisfaction.",
+      },
+      {
+        imag: "/home/uiux-3.jpg",
+        title: "Healthcare",
+        description:
+          "Creating user-friendly dashboards, appointment systems, and telehealth interfaces that prioritize clarity and accessibility.",
+      },
+      {
+        imag: "/home/uiux-3.jpg",
+        title: "Education",
+        description:
+          "Designing engaging, interactive platforms for e-learning and student management with intuitive content delivery.",
+      },
+      {
+        imag: "/home/uiux-3.jpg",
+        title: "Finance",
+        description:
+          "Building secure and visually clear user experiences for online banking, investment, and budgeting tools.",
+      },
+      {
+        imag: "/home/uiux-3.jpg",
+        title: "Real Estate",
+        description:
+          "Creating intuitive search interfaces, property detail pages, and lead generation flows for real estate platforms.",
+      },
+      {
+        imag: "/home/uiux-3.jpg",
+        title: "Entertainment",
+        description:
+          "Designing immersive and interactive UI experiences for music, video streaming, and gaming platforms.",
+      },
+    ],
+  },
 ];
 
 interface PageProps {

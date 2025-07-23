@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const blogPosts = [
   {
-    id: 1,
+    slug: "/blog-1",
     title: "Boost your conversion rate",
     date: "Mar 16, 2020",
     category: "Marketing",
@@ -50,8 +50,8 @@ export default function BlogSection() {
         <div className="mt-16 space-y-20 sm:mt-20 sm:space-y-20">
           {blogPosts.map((post) => (
             <Link
-              href={`/blog/${post.id}`}
-              key={post.id}
+              href={`/blogs/${post.slug}`}
+              key={post.slug}
               className="block group"
             >
               <div className="flex flex-col md:flex-row gap-10 items-center md:items-start">

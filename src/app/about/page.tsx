@@ -175,13 +175,13 @@ const About = () => {
         </div>
       </div>
 
-      <div className="pt-18 max-w-7xl mx-auto">
+      {/* <div className="pt-18 max-w-7xl mx-auto">
         <h2 className="text-[#161C52] text-[44px] max-md:text-[28px] font-semibold md:leading-[3rem]">
           Legacy of Innovation
         </h2>
 
         <div className="flex gap-4 max-lg:flex-wrap max-md:mt-10">
-          {/* Card 1 */}
+
           <div className="lg:py-14 flex-1 min-w-[300px]">
             <div className="relative text-[#0079B5] text-[44px] md:text-[54px] pl-10 py-3">
               <div className="absolute left-0 top-0 h-full w-[3px] bg-gradient-to-b from-[#0079B51A] via-[#0079B5] to-[#0079B51A]"></div>
@@ -202,7 +202,7 @@ const About = () => {
             </div>
           </div>
 
-          {/* Card 2 */}
+        
           <div className="lg:py-14 flex-1 min-w-[300px]">
             <div className="relative text-[#0079B5] text-[44px] md:text-[54px] pl-10 py-3">
               <div className="absolute left-0 top-0 h-full w-[3px] bg-gradient-to-b from-[#0079B51A] via-[#0079B5] to-[#0079B51A]"></div>
@@ -222,7 +222,7 @@ const About = () => {
             </div>
           </div>
 
-          {/* Card 3 */}
+
           <div className="lg:py-14 flex-1 min-w-[300px]">
             <div className="relative text-[#0079B5] text-[44px] md:text-[54px] pl-10 py-3">
               <div className="absolute left-0 top-0 h-full w-[3px] bg-gradient-to-b from-[#0079B51A] via-[#0079B5] to-[#0079B51A]"></div>
@@ -242,7 +242,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* 
       <div className="w-full flex justify-center">
