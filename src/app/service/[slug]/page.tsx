@@ -799,8 +799,8 @@ export default async function ServiceComponent({ params }: PageProps) {
           <div className="w-full overflow-hidden px-4">
             <div>
               <h2
-                className="text-center text-3xl lg:text-4xl xl:text-5xl 
-               bg-contact-background bg-clip-text  
+                className="text-center text-3xl lg:text-4xl xl:text-5xl
+               bg-contact-background bg-clip-text
                font-bold p-2"
               >
                 Our Offerings
