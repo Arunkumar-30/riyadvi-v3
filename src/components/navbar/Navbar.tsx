@@ -21,37 +21,37 @@ const NavbarComponent = () => {
         {
           label: "Web Development",
           href: "/service/web-development",
-          icon: "./navbar-logos/app-development.png",
+          icon: "/navbar-logos/app-development.png",
         },
         {
           label: "App Development",
           href: "/service/app-development",
-          icon: "./navbar-logos/mobile-development.png",
+          icon: "/navbar-logos/mobile-development.png",
         },
         {
           label: "Digital Marketing",
           href: "/service/digital-marketing",
-          icon: "./navbar-logos/digital-marketing.png",
+          icon: "/navbar-logos/digital-marketing.png",
         },
         {
           label: "AR & VR",
           href: "/service/ar-vr",
-          icon: "./navbar-logos/virtual-tour.png",
+          icon: "/navbar-logos/virtual-tour.png",
         },
         {
           label: "3D Modelling",
           href: "/service/3d-modeling",
-          icon: "./navbar-logos/3d-model.png",
+          icon: "/navbar-logos/3d-model.png",
         },
         {
           label: "Game Development",
           href: "/service/game-development",
-          icon: "./navbar-logos/game-development.png",
+          icon: "/navbar-logos/game-development.png",
         },
         {
           label: "UI/UX Design",
           href: "/service/ui-ux-design",
-          icon: "./navbar-logos/design.png",
+          icon: "/navbar-logos/design.png",
         },
       ],
     },
@@ -184,7 +184,7 @@ const NavbarComponent = () => {
                                   className="flex items-center text-gray-700 hover:text-[#00008f] hover:bg-slate-100 py-2 px-4 rounded-md transition"
                                 >
                                   {/* Icon on the left */}
-                                  <img
+                                  <Image
                                     src={dropdownItem.icon}
                                     width={50}
                                     height={50}

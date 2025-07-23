@@ -1,45 +1,80 @@
 "use client";
+import { useState } from "react";
 import Image from "next/image";
 
+const categories = ["all", "website", "app", "game"];
 const portfolioItems = [
   {
     title: "OMCorporation",
     image: "/portfolio/omc.png",
     link: "https://www.omcorporations.com/",
+    category: "website",
   },
   {
     title: "Snew Computers",
     image: "/portfolio/snew.png",
     link: "https://snewcomputers.com/",
+    category: "website",
   },
   {
     title: "Tony And Guy Kolathur",
     image: "/portfolio/tonyandguy.png",
     link: "https://www.toniandguykolathur.com/",
+    category: "website",
   },
   {
     title: "Cube Tendal",
     image: "/portfolio/cube.png",
     link: "https://cubedentalequipments.com/",
+    category: "app",
   },
   {
     title: "Round Table",
     image: "/portfolio/roundtable.png",
     link: "https://roundtableproductions.in/",
+    category: "game",
   },
   {
     title: "Signature Blends",
     image: "/portfolio/wano.png",
     link: "https://wanaromah.com/pages/signature-blends",
+    category: "app",
   },
 ];
 
 const PortfolioGrid = () => {
+  const [filter, setFilter] = useState("all");
+
+  const filteredItems =
+    filter === "all"
+      ? portfolioItems
+      : portfolioItems.filter((item) => item.category === filter);
+
   return (
     <section className="px-4 py-12 lg:py-20 bg-white">
       <div className="max-w-7xl mx-auto">
+        {/* Filter Buttons */}
+        <div className="flex justify-center gap-4 mb-10 flex-wrap">
+          {categories.map((cat) => (
+            <button
+              key={cat}
+              onClick={() => setFilter(cat)}
+              className={`px-4 py-2 rounded-full text-sm font-medium capitalize border transition ${
+                filter === cat
+                  ? "bg-[#D4AF37] text-white border-[#D4AF37]"
+                  : "bg-white text-gray-700 border-gray-500 hover:bg-[#D4AF37] hover:text-white"
+              }`}
+            >
+              {cat === "all"
+                ? "All"
+                : cat.charAt(0).toUpperCase() + cat.slice(1)}
+            </button>
+          ))}
+        </div>
+
+        {/* Portfolio Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {portfolioItems.map((item, index) => (
+          {filteredItems.map((item, index) => (
             <a
               key={index}
               href={item.link}

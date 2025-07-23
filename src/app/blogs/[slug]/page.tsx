@@ -1,157 +1,104 @@
-import FAQSection from "@/components/ui-section/FaqSection";
-
 import Image from "next/image";
+import { notFound } from "next/navigation";
 
-const allServices = [
+const allBlogs = [
   {
     slug: "blog-1",
-    title: "Web Developement",
-    subTitle: "Building High-Performance Websites With Custom Solutions",
-    mainImag: "/home/about-1.jpg",
-    titlePara:
-      "A strong online presence starts with expert web development. We create fast, secure, and scalable websites that meet your business needs.Our web development services in Chennai, India, include custom website development, e-commerce solutions, CMS integration, and responsive web design to ensure the best user experience. Our clients trust us to deliver innovative solutions that help them succeed in a competitive market.",
-    offering: [
+    title: "Building High-Performance Websites With Custom Solutions",
+    mainImage: "/home/about-1.jpg",
+    description:
+      "A strong online presence starts with expert web development. We create fast, secure, and scalable websites that meet your business needs. Our services in Chennai, India include custom development, e-commerce, CMS integration, and responsive design.",
+    subTitle1: "Common Problems and Solutions",
+    problem1: "Problem 1: High Cart Abandonment Rates",
+    problem1Des:
+      "Why it happens: Unexpected costs, lengthy checkout processes, or a lack of trust.",
+    solutions1: [
       {
-        title: "Custom Website Development",
-        description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+        title: "Transparent Pricing",
+        desc: "Offer free shipping or display all costs upfront to reduce surprises.",
       },
       {
-        title: "Custom Website Development",
-        description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+        title: "Streamlined Checkout",
+        desc: "Minimize steps in the checkout flow to avoid drop-offs.",
       },
       {
-        title: "Custom Website Development",
-        description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
-      },
-      {
-        title: "Custom Website Development",
-        description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
-      },
-      {
-        title: "Custom Website Development",
-        description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
-      },
-      {
-        title: "Custom Website Development",
-        description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
-      },
-    ],
-    benifits: [
-      {
-        imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
-        description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
-      },
-      {
-        imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
-        description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
-      },
-      {
-        imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
-        description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
-      },
-      {
-        imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
-        description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
-      },
-    ],
-    industry: [
-      {
-        imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
-        description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
-      },
-      {
-        imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
-        description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
-      },
-      {
-        imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
-        description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
-      },
-      {
-        imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
-        description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
-      },
-      {
-        imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
-        description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
-      },
-      {
-        imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
-        description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+        title: "Trust Signals",
+        desc: "Show security badges, reviews, and clear policies.",
       },
     ],
   },
 ];
 
 interface PageProps {
-  params: Promise<{
-    slug: string;
-  }>;
+  params: { slug: string };
 }
 
 export function generateStaticParams() {
-  return [
-    ...allServices.map((a) => ({
-      slug: a.slug,
-    })),
-  ];
+  return allBlogs.map((blog) => ({
+    slug: blog.slug,
+  }));
 }
 
 export default async function BlogsComponent({ params }: PageProps) {
-  const { slug } = await params; // TypeScript now knows slug is a string
-  const data = allServices.find((s) => s.slug === slug);
+  const { slug } = await params;
+  const data = allBlogs.find((s) => s.slug === slug);
+
+  if (!data) {
+    notFound();
+  }
 
   return (
-    <>
-      <div>
-        <section id="Overview" className="mt-10 lg:mt-20">
-          <div className="flex justify-center mt-28 lg:mt-20 px-4">
-            <div className="w-full max-w-7xl h-fit flex flex-col lg:flex-row gap-10 p-4 lg:p-10">
-              {/* Left: Image Section */}
-              <div className="w-full flex justify-center items-center">
-                <div className="w-full  aspect-square rounded-xl overflow-hidden shadow-md">
-                  <Image
-                    src="/home/about-1.jpg"
-                    alt="Web Development"
-                    width={600}
-                    height={400}
-                    className="w-full h-[300px] object-cover"
-                  />
-                </div>
-                <div>{data?.title}</div>
-              </div>
-            </div>
-          </div>
-        </section>
+    <div className="bg-white py-12 sm:py-20 px-4 sm:px-6 lg:px-8 ">
+      <div className="max-w-5xl mx-auto space-y-10">
+        {/* Title */}
+        <div>
+          <h2 className="text-2xl sm:text-3xl font-semibold text-black mt-2">
+            {data.title}
+          </h2>
+        </div>
 
-        <FAQSection />
+        {/* Image */}
+        <div className="w-full overflow-hidden rounded-lg">
+          <Image
+            src={data.mainImage}
+            alt={data.title}
+            width={0}
+            height={0}
+            sizes="100vw"
+            className="w-full h-64 sm:h-80 object-cover"
+          />
+        </div>
+
+        {/* Description */}
+        <p className="text-[#585858] text-base sm:text-lg font-medium leading-relaxed">
+          {data.description}
+        </p>
+
+        {/* Problems and Solutions */}
+        <div className="space-y-6">
+          <h3 className="text-2xl sm:text-3xl font-semibold text-black">
+            {data.subTitle1}
+          </h3>
+
+          <div>
+            <p className="text-lg font-semibold text-black">{data.problem1}</p>
+            <p className="text-[#585858] text-base font-medium mt-1">
+              {data.problem1Des}
+            </p>
+          </div>
+
+          <ul className="space-y-4 list-disc list-inside text-[#444]">
+            {data.solutions1.map((solution, index) => (
+              <li key={index}>
+                <span className="font-semibold text-black">
+                  {solution.title}:
+                </span>{" "}
+                {solution.desc}
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
-    </>
+    </div>
   );
 }

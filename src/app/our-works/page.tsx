@@ -2,42 +2,41 @@ import Link from "next/link";
 
 const cards = [
   {
-    title: "Support and Maintenance",
-    desc: "We provide ongoing website support and maintenance services.We provide ongoing website support and maintenance services.",
-    image: "/home/about-2.jpg",
-    link: "/works/support-maintenance",
+    title: "Website Portfolio",
+    desc: "Explore our diverse range of website projects, including business sites, e-commerce, and custom CMS platforms.",
+    image: "/works/website-portfolio.jpg",
+    pdf: "/pdfs/Riyadvi  - Website Portfolio.pdf",
   },
   {
-    title: "E-Commerce Platform",
-    desc: "Robust e-commerce website with scalable features and secure checkout.We provide ongoing website support and maintenance services.",
-    image: "/home/about-2.jpg",
-    link: "/works/ecommerce",
+    title: "Mobile App Portfolio",
+    desc: "View our portfolio of intuitive and scalable mobile apps crafted for Android, iOS, and cross-platform solutions.",
+    image: "/works/app-portfolio.jpg",
+
+    pdf: "/pdfs/Riyadvi - App Portfolio.pdf",
   },
   {
-    title: "Learning App",
-    desc: "Interactive learning app with gamified experience for students.We provide ongoing website support and maintenance services.",
-    image: "/home/about-2.jpg",
-    link: "/works/learning-app",
+    title: "Client Testimonials",
+    desc: "Discover what our clients say about working with us and the success stories we've built together.",
+    image: "/works/testimonal.jpg",
+
+    pdf: "/pdfs/Riyadvi - Client Testimonials.pdf",
   },
   {
-    title: "Digital Marketing",
-    desc: "SEO and Ad campaign optimization for lead generation.We provide ongoing website support and maintenance services.",
-    image: "/home/about-2.jpg",
-    link: "/works/digital-marketing",
+    title: "Digital Marketing Portfolio",
+    desc: "A showcase of our successful digital marketing campaigns, including SEO, PPC, and brand strategy.",
+    image: "/works/digital-marketing.jpg",
+
+    pdf: "/pdfs/Riyadvi - Digital Marketing Portfolio.pdf",
   },
   {
-    title: "VR Training",
-    desc: "Virtual Reality training module for industrial staff.We provide ongoing website support and maintenance services.",
-    image: "/home/about-2.jpg",
-    link: "/works/vr-training",
-  },
-  {
-    title: "Portfolio Website",
-    desc: "Personal portfolio site with modern UI/UX design.We provide ongoing website support and maintenance services.",
-    image: "/home/about-2.jpg",
-    link: "/works/portfolio-site",
+    title: "Company Overview Portfolio",
+    desc: "Get an inside look at Riyadvi – our capabilities, core values, industries served, and company milestones.",
+    image: "/works/company-portfolio.jpg",
+
+    pdf: "/pdfs/Riyadvi Company - Portfolio.pdf",
   },
 ];
+
 const OurWorks = () => {
   return (
     <>
@@ -126,10 +125,10 @@ const OurWorks = () => {
           </div>
         </div>
       </div>
-      <section id="Success Stories" className="mt-10 ">
+      <section id="Success Stories" className="mt-10">
         <div className="w-full px-4 overflow-hidden">
           <div className="text-center">
-            <h2 className="text-center text-3xl lg:text-4xl xl:text-5xl bg-contact-background bg-clip-text  font-bold">
+            <h2 className="text-center text-3xl lg:text-4xl xl:text-5xl bg-contact-background bg-clip-text font-bold">
               Success Stories
             </h2>
           </div>
@@ -137,8 +136,8 @@ const OurWorks = () => {
           <div className="flex justify-center w-full p-2 mt-5 lg:mt-14 mb-20">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 w-full lg:w-[80%] mt-5 rounded-lg">
               {cards.map((card, index) => (
-                <Link href={card.link} key={index} className="cursor-pointer">
-                  <div className="p-6 bg-white rounded-lg transition-all duration-500 shadow-2xl hover:-translate-y-2 hover:shadow-3xl hover:cursor-pointer">
+                <div key={index}>
+                  <div className="p-6 bg-white rounded-lg transition-all duration-500 shadow-2xl hover:-translate-y-2 hover:shadow-3xl">
                     <div className="flex justify-center">
                       <img
                         alt={card.title}
@@ -147,15 +146,28 @@ const OurWorks = () => {
                       />
                     </div>
                     <div className="flex-1">
-                      <h2 className="text-center text-md md:text-2xl font-bold mt-4">
+                      <h2 className="text-start text-md md:text-2xl font-bold mt-4">
                         {card.title}
                       </h2>
-                      <p className="text-[#585858] text-sm md:text-base lg:text-lg mt-5 text-center">
+                      <p className="text-[#585858] text-sm md:text-base lg:text-lg mt-5 text-start">
                         {card.desc}
                       </p>
                     </div>
+                    <div className="flex-1 mt-2">
+                      <Link
+                        href={card.pdf}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cursor-pointer group inline-flex text-lg items-center text-[#D4AF37] font-semibold relative overflow-hidden"
+                      >
+                        Know More
+                        <span className="ml-2 text-2xl transform transition-transform duration-300 group-hover:translate-x-1 group-hover:animate-bounce">
+                          →
+                        </span>
+                      </Link>
+                    </div>
                   </div>
-                </Link>
+                </div>
               ))}
             </div>
           </div>

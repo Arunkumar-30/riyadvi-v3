@@ -1,24 +1,26 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
 const blogPosts = [
   {
-    slug: "/blog-1",
+    slug: "blog-1",
     title: "Boost your conversion rate",
     date: "Mar 16, 2020",
     category: "Marketing",
     description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat conssedcectetur nulla deserunt vel iusto corrupti dicta laboris incidunt.",
+      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta.",
     author: {
       name: "Michael Foster",
       role: "Co-Founder / CTO",
-      imageUrl: "",
+      imageUrl: "", // Will fallback to default
     },
     image: "/home/about-1.jpg",
   },
   {
-    id: 2,
-    title: "How to use ide search engine optimization to drive sales",
+    slug: "blog-2",
+    title: "How to use SEO to drive sales",
     date: "Mar 10, 2020",
     category: "Sales",
     description:
@@ -48,10 +50,10 @@ export default function BlogSection() {
 
         {/* Blog Posts */}
         <div className="mt-16 space-y-20 sm:mt-20 sm:space-y-20">
-          {blogPosts.map((post) => (
+          {blogPosts.map((post, index) => (
             <Link
               href={`/blogs/${post.slug}`}
-              key={post.slug}
+              key={index}
               className="block group"
             >
               <div className="flex flex-col md:flex-row gap-10 items-center md:items-start">
@@ -60,27 +62,29 @@ export default function BlogSection() {
                   <Image
                     src={post.image}
                     alt={post.title}
-                    width={400}
-                    height={400}
+                    width={350}
+                    height={350}
                     className="w-[350px] h-[350px] object-cover"
                   />
                 </div>
 
                 {/* Text Content */}
-                <div className=" md:text-left">
+                <div className="md:text-left">
                   <p className="text-sm text-gray-500">
-                    {post.date}{" "}
+                    {post.date}
                     <span className="ml-2 px-2 py-1 bg-gray-100 rounded-full text-xs font-medium text-gray-700">
                       {post.category}
                     </span>
                   </p>
-                  <h3 className="mt-2 text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition">
+                  <h3 className="mt-2 text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
                     {post.title}
                   </h3>
                   <p className="mt-4 text-base text-gray-700">
                     {post.description}
                   </p>
-                  <div className="mt-6 flex justify-start gap-x-4">
+
+                  {/* Author Info */}
+                  <div className="mt-6 flex items-center gap-x-4">
                     <Image
                       className="h-10 w-10 rounded-full"
                       src={post.author.imageUrl || "/default-avatar.png"}
@@ -88,7 +92,7 @@ export default function BlogSection() {
                       width={40}
                       height={40}
                     />
-                    <div className="text-sm leading-6 text-left">
+                    <div className="text-sm leading-6">
                       <p className="font-semibold text-gray-900">
                         {post.author.name}
                       </p>

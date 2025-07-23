@@ -60,7 +60,7 @@ const About = () => {
           </div>
 
           {/* Founder Image */}
-          <div className="md:w-[40%] h-auto md:h-[450px] max-md:mx-auto overflow-hidden rounded-4xl border border-2 border-yellow-900 p-5">
+          <div className="md:w-[40%] h-auto md:h-[450px] max-md:mx-auto overflow-hidden rounded-4xl  border-2 border-yellow-900 p-5">
             <img
               alt="Mr. Yuvaraj, founder of Aryu Enterprises, leading innovation and growth in the industry."
               className="w-full h-full object-cover duration-400 hover:scale-110 transition-transform "
