@@ -3,7 +3,6 @@ import CaseStudies from "@/components/ui-section/CaseStudies";
 import ContactComponent from "@/components/ui-section/ContactSection";
 
 import FaqAccordion from "@/components/ui-section/FaqSection";
-import TestimonialSlider from "@/components/ui-section/NewTestimonal";
 
 import ServiceComponent from "@/components/ui-section/ServiceSection";
 import Testimonials from "@/components/ui-section/Testimonal";
@@ -27,7 +26,7 @@ export default function Home() {
       <ContactComponent />
 
       <CaseStudies />
-      <TestimonialSlider />
+      {/* <TestimonialSlider /> */}
       <Testimonials />
       <FaqAccordion />
     </div>
