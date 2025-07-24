@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const blogPosts = [
   {
-    slug: "blog-1",
+    slug: "boost-your-conversion-rate",
     title: "Boost your conversion rate",
     date: "Mar 16, 2020",
     category: "Marketing",
@@ -19,7 +19,7 @@ const blogPosts = [
     image: "/home/about-1.jpg",
   },
   {
-    slug: "blog-2",
+    slug: "how-to-use-seo-to-drive-sales",
     title: "How to use SEO to drive sales",
     date: "Mar 10, 2020",
     category: "Sales",

@@ -19,15 +19,15 @@ export default function ContactSection() {
       <section className="bg-white px-4 py-12 sm:px-6 lg:px-20">
         {/* Contact Info Cards */}
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-          <div className="bg-white text-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-blue-500">
+          <div className="bg-white text-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-[#D4AF37]">
             <h3 className="text-lg font-semibold mb-1">Location</h3>
             <p>Krishnapuram, Mylapore, Chennai 600004</p>
           </div>
-          <div className="bg-white text-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-blue-500">
+          <div className="bg-white text-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-[#D4AF37]">
             <h3 className="text-lg font-semibold mb-1">Phone</h3>
             <p>+91 8072487427</p>
           </div>
-          <div className="bg-white text-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-blue-500">
+          <div className="bg-white text-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-[#D4AF37]">
             <h3 className="text-lg font-semibold mb-1">Email</h3>
             <p>info@riyadvisoftwaretechnologies.com</p>
           </div>
@@ -35,26 +35,26 @@ export default function ContactSection() {
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10">
           {/* Left Section */}
           <div>
-            <h3 className="text-primary text-lg font-medium mb-2 border-l-4 border-blue-600 pl-2">
+            <h3 className="text-primary text-lg font-medium mb-2 border-l-4 border-[#D4AF37] pl-2">
               Contact Us
             </h3>
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
               Do you have any questions?
             </h2>
             <p className="text-gray-600 mb-6">
-              Click the link below for a free consultation with Mr. Y, your
-              coding friend!
+              Click the link below for a free consultation with Mr. Devakumar,
+              your coding friend!
             </p>
 
             <div className="flex items-center gap-4">
               <img
                 src="/path-to-image.jpg"
-                alt="Mr. Yuvaraj T"
+                alt="Mr.Devakumar"
                 className="w-16 h-16 rounded-full object-cover"
               />
               <div>
                 <p className="font-bold text-lg">
-                  Mr. Yuvaraj T{" "}
+                  Mr. Devakumar B{" "}
                   <a
                     href="#"
                     target="_blank"
@@ -64,7 +64,7 @@ export default function ContactSection() {
                     🔗
                   </a>
                 </p>
-                <p className="text-gray-500">Founder Of Aryu</p>
+                <p className="text-gray-500">Founder Of Riyadvi</p>
               </div>
             </div>
           </div>
@@ -82,41 +82,36 @@ export default function ContactSection() {
               <input
                 type="text"
                 placeholder="Full Name"
-                className="px-4 py-3 rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="px-4 py-3 rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-[#D4AF37]"
               />
               <input
                 type="email"
                 placeholder="Email"
-                className="px-4 py-3 rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="px-4 py-3 rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-[#D4AF37]"
               />
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <input
                 type="tel"
                 placeholder="Phone Number"
-                className="px-4 py-3 rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="px-4 py-3 rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-[#D4AF37]"
               />
-              <select className="px-4 py-3 rounded-md border border-gray-300 bg-white text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
-                <option value="">Country</option>
-                <option value="India">India</option>
-                <option value="USA">USA</option>
-                <option value="UK">UK</option>
+              <select className="w-full px-4 py-3 rounded-md border border-gray-300 bg-white text-gray-600 focus:outline-none focus:ring-2 focus:ring-[#D4AF37]">
+                <option value="">Select a Service</option>
+                <option>Web Development</option>
+                <option>App Development</option>
+                <option>UI/UX Design</option>
               </select>
             </div>
-            <select className="w-full px-4 py-3 rounded-md border border-gray-300 bg-white text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
-              <option value="">Select a Service</option>
-              <option>Web Development</option>
-              <option>App Development</option>
-              <option>UI/UX Design</option>
-            </select>
+
             <textarea
               placeholder="Your Message"
-              className="w-full px-4 py-3 rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-4 py-3 rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-[#D4AF37]"
             ></textarea>
 
             <button
               type="submit"
-              className="w-full py-3 rounded-md bg-gradient-to-r from-indigo-500 to-blue-500 text-white font-semibold hover:from-indigo-600 hover:to-blue-600 transition shadow-md"
+              className="w-full py-3 rounded-md bg-gradient-to-r from-indigo-500 to-[#D4AF37] text-white font-semibold hover:from-indigo-600 hover:to-[#D4AF37] transition shadow-md"
             >
               Submit
             </button>

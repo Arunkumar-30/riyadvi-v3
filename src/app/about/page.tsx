@@ -12,25 +12,26 @@ const About = () => {
 
       <div className="bg-[#fff] py-6">
         <div className="max-w-7xl mx-auto px-4 max-md:px-6 flex items-center justify-between gap-y-6 py-16 max-md:flex-col">
-          {/* Founder Text Content */}
+          {/* Text Content */}
           <div className="md:w-[50%] flex flex-col justify-center mt-8 md:mt-0">
             <h2 className="text-[#161C52] text-[44px] max-md:text-[28px] font-semibold leading-snug h2-ani">
               About
             </h2>
             <p className="text-[#484A61] text-[18px] max-md:text-[14px] mt-6 leading-relaxed">
-              Yuvaraj, the heart and soul behind Aryu Enterprises, brings
-              together a unique blend of expertise and passion. With over 15
-              years of experience in technology services, branding, and
-              marketing, Yuvaraj founded Aryu Enterprises to address the
-              challenges he witnessed in the industry.
+              Riyadvi Software Technologies is driven by a team of passionate
+              innovators and experienced professionals who aim to transform the
+              digital ecosystem. With a strong foundation in software
+              engineering, product development, and user-focused design, Riyadvi
+              brings digital dreams to life for businesses across industries.
               <br />
               <span>
-                His journey, driven by a desire for meaningful change, inspired
-                the &quot;Client First&quot; mantra—ensuring innovation,
-                branding excellence, and genuine client partnerships.
+                Guided by a &quot;Technology with Purpose&quot; philosophy,
+                we’re committed to delivering reliable, scalable, and impactful
+                solutions that empower our clients to thrive in an ever-evolving
+                digital world.
               </span>
-              <br />
             </p>
+
             <div className="flex flex-col md:flex-row items-start justify-between gap-10 mt-5">
               <div className="md:w-1/2 flex flex-col justify-start">
                 <div className="flex items-center gap-3 mb-4">
@@ -39,11 +40,12 @@ const About = () => {
                   </h3>
                 </div>
                 <p className="text-[#484A61] text-[18px] max-md:text-[14px] leading-relaxed">
-                  To become a global leader in digital transformation by
-                  empowering businesses with innovative solutions, creative
-                  strategies, and a commitment to excellence.
+                  To be a global leader in digital innovation, enabling
+                  enterprises to evolve through intelligent technology and
+                  forward-thinking strategies.
                 </p>
               </div>
+
               <div className="md:w-1/2 flex flex-col justify-start">
                 <div className="flex items-center gap-3 mb-4">
                   <h3 className="text-2xl font-semibold text-[#161C52]">
@@ -51,20 +53,21 @@ const About = () => {
                   </h3>
                 </div>
                 <p className="text-[#484A61] text-[18px] max-md:text-[14px] leading-relaxed">
-                  To deliver impactful digital solutions with a client-first
-                  mindset, fostering long-term growth, innovation, and reliable
-                  partnerships worldwide.
+                  To craft high-quality digital products and solutions that
+                  solve real-world problems, promote growth, and build lasting
+                  client relationships through integrity, innovation, and
+                  excellence.
                 </p>
               </div>
             </div>
           </div>
 
-          {/* Founder Image */}
-          <div className="md:w-[40%] h-auto md:h-[450px] max-md:mx-auto overflow-hidden rounded-4xl  border-2 border-yellow-900 p-5">
+          {/* Founder/Team Image */}
+          <div className="md:w-[40%] h-auto md:h-[450px] max-md:mx-auto overflow-hidden rounded-4xl">
             <img
-              alt="Mr. Yuvaraj, founder of Aryu Enterprises, leading innovation and growth in the industry."
-              className="w-full h-full object-cover duration-400 hover:scale-110 transition-transform "
-              src="/home/about-1.jpg"
+              alt="Riyadvi Software Technologies team, empowering digital innovation globally."
+              className="w-full h-full object-cover duration-400 hover:scale-110 transition-transform"
+              src="/home/about-1.jpg" // Replace with your actual image path
             />
           </div>
         </div>
@@ -76,27 +79,30 @@ const About = () => {
             <img
               alt="Mr. Yuvaraj, founder of Aryu Enterprises, leading innovation and growth in the industry."
               className="w-full h-full object-cover duration-400 hover:scale-110 transition-transform"
-              src="/home/about-2.jpg"
+              src="/home/focus.jpg"
             />
           </div>
 
           {/* Founder Text Content */}
           <div className="md:w-[50%] flex flex-col justify-center mt-8 md:mt-0">
             <h2 className="text-[#161C52] text-[44px] max-md:text-[28px] font-semibold leading-snug">
-              Meet the Founder
+              Our Focus
             </h2>
             <p className="text-[#484A61] text-[18px] max-md:text-[14px] mt-6 leading-relaxed">
-              Yuvaraj, the heart and soul behind Aryu Enterprises, brings
-              together a unique blend of expertise and passion. With over 15
-              years of experience in technology services, branding, and
-              marketing, Yuvaraj founded Aryu Enterprises to address the
-              challenges he witnessed in the industry.
+              At <strong>Riyadvi Software Technologies</strong>, we’re driven by
+              a deep passion for solving complex business challenges through
+              innovative digital solutions. With over a decade of expertise
+              across industries, we specialize in building scalable, secure, and
+              user-centric software products that empower organizations to grow
+              and succeed in the digital age.
               <br />
               <br />
               <span>
-                His journey, driven by a desire for meaningful change, inspired
-                the &quot;Client First&quot; mantra—ensuring innovation,
-                branding excellence, and genuine client partnerships.
+                Our focus is on delivering technology that creates real
+                impact—whether it&apos;s transforming customer experiences,
+                optimizing business operations, or driving digital
+                transformation at scale. We are committed to helping our clients
+                stay ahead in today’s fast-paced, tech-driven world.
               </span>
             </p>
           </div>
@@ -107,27 +113,38 @@ const About = () => {
           {/* Founder Text Content */}
           <div className="md:w-[50%] flex flex-col justify-center mt-8 md:mt-0">
             <h2 className="text-[#161C52] text-[44px] max-md:text-[28px] font-semibold leading-snug">
-              Meet the Founder
+              Our Partnerships
             </h2>
             <p className="text-[#484A61] text-[18px] max-md:text-[14px] mt-6 leading-relaxed">
-              Yuvaraj, the heart and soul behind Aryu Enterprises, brings
-              together a unique blend of expertise and passion. With over 15
-              years of experience in technology services, branding, and
-              marketing, Yuvaraj founded Aryu Enterprises to address the
-              challenges he witnessed in the industry.
+              At <strong>Riyadvi Software Technologies</strong>, we’re proud to
+              collaborate with a diverse range of businesses across the
+              financial landscape — from disruptive startups to established
+              financial institutions. Our deep domain expertise in areas like{" "}
+              <strong>
+                Capital Markets Trading, IPO solutions, Mutual Funds, and Stock
+                Market Analytics
+              </strong>{" "}
+              allows us to build meaningful, trust-driven partnerships that
+              drive digital transformation.
               <br />
               <br />
               <span>
-                His journey, driven by a desire for meaningful change, inspired
-                the &quot;Client First&quot; mantra—ensuring innovation,
-                branding excellence, and genuine client partnerships.
+                We don’t just keep pace with financial innovation —{" "}
+                <strong>we lead it</strong>. Through agile collaboration and
+                cutting-edge technology, we continue to push the boundaries of
+                what’s possible in the FinTech space.
               </span>
               <br />
+              <br />
               <span>
-                His journey, driven by a desire for meaningful change, inspired
-                the &quot;Client First&quot; mantra—ensuring innovation,
-                branding excellence, and genuine client partnerships.
+                Join us as we shape the future of finance, where complex
+                challenges are simplified, and opportunities are amplified
+                through smart software solutions.
               </span>
+            </p>
+            <p className="text-[#161C52] text-[18px] max-md:text-[16px] font-semibold mt-6">
+              Thank you for choosing Riyadvi Software Technologies — your
+              success is our mission.
             </p>
           </div>
           {/* Founder Image */}
@@ -135,42 +152,54 @@ const About = () => {
             <img
               alt="Mr. Yuvaraj, founder of Aryu Enterprises, leading innovation and growth in the industry."
               className="w-full h-full object-cover duration-400 hover:scale-110 transition-transform"
-              src="/home/about-2.jpg"
+              src="/home/partner.jpg"
             />
           </div>
         </div>
       </div>
       <div className="bg-[#fff] mb-10">
-        <div className="max-w-7xl mx-auto flex justify-between gap-y-6 py-16 max-md:flex-col space-x-6">
-          {/* Founder Image */}
-          <div className="flex">
-            <img
-              alt="Mr. Yuvaraj, founder of Aryu Enterprises, leading innovation and growth in the industry."
-              className="w-60 h-60 object-cover duration-400 hover:scale-110 transition-transform"
-              src="/home/about-2.jpg"
-            />
-          </div>
+        <div className="max-w-7xl mx-auto ">
+          <div className="flex justify-between gap-y-6 py-16 max-md:flex-col space-x-6">
+            {/* Founder Image */}
 
-          {/* Founder Text Content */}
-          <div className="flex-1">
-            <h2 className="text-[#161C52] text-[44px] max-md:text-[28px] font-semibold leading-snug">
-              Meet the Founder
-            </h2>
-            <p className="text-[#484A61] text-[18px] max-md:text-[14px] mt-6 leading-relaxed">
-              Yuvaraj, the heart and soul behind Aryu Enterprises, brings
-              together a unique blend of expertise and passion. With over 15
-              years of experience in technology services, branding, and
-              marketing, Yuvaraj founded Aryu Enterprises to address the
-              challenges he witnessed in the industry.
-              <br />
-            </p>
+            <div className="flex">
+              <div className="space-y-2">
+                <h2 className="text-[#161C52] text-[30px] max-md:text-[20px] font-semibold leading-snug">
+                  The team
+                </h2>
+                <img
+                  alt="Mr. Yuvaraj, founder of Aryu Enterprises, leading innovation and growth in the industry."
+                  className="w-60 h-60 object-cover duration-400 hover:scale-110 transition-transform"
+                  src="/home/devakumar.jpeg"
+                />
+              </div>
+            </div>
+
+            {/* Founder Text Content */}
+            <div className="flex-1 mt-8">
+              <h2 className="text-[#161C52] text-[44px] max-md:text-[28px] font-semibold leading-snug">
+                Devakumar
+              </h2>
+              <h3 className="text-[#D4AF37] text-[34px] max-md:text-[18px] font-semibold leading-snug">
+                Director
+              </h3>
+              <p className="text-[#484A61] text-[18px] max-md:text-[14px] mt-6 leading-relaxed">
+                Devakumar is the visionary Director at{" "}
+                <strong>Riyadvi Software Technologies</strong>, driving
+                strategic innovation and growth. With a deep understanding of
+                the tech landscape, he guides teams to build scalable digital
+                solutions. His leadership ensures client-centric delivery across
+                every project. Passionate about transformation, he empowers
+                businesses through technology.
+              </p>
+            </div>
           </div>
         </div>
         <div className="max-w-7xl mx-auto ">
           <img
             alt="Mr. Yuvaraj, founder of Aryu Enterprises, leading innovation and growth in the industry."
             className="w-full h-96 object-cover "
-            src="/home/team_ban.jpeg"
+            src="/home/team.jpg"
           />
         </div>
       </div>

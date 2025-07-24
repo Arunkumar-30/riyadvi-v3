@@ -3,7 +3,32 @@ import { notFound } from "next/navigation";
 
 const allBlogs = [
   {
-    slug: "blog-1",
+    slug: "boost-your-conversion-rate",
+    title: "Building High-Performance Websites With Custom Solutions",
+    mainImage: "/home/about-1.jpg",
+    description:
+      "A strong online presence starts with expert web development. We create fast, secure, and scalable websites that meet your business needs. Our services in Chennai, India include custom development, e-commerce, CMS integration, and responsive design.",
+    subTitle1: "Common Problems and Solutions",
+    problem1: "Problem 1: High Cart Abandonment Rates",
+    problem1Des:
+      "Why it happens: Unexpected costs, lengthy checkout processes, or a lack of trust.",
+    solutions1: [
+      {
+        title: "Transparent Pricing",
+        desc: "Offer free shipping or display all costs upfront to reduce surprises.",
+      },
+      {
+        title: "Streamlined Checkout",
+        desc: "Minimize steps in the checkout flow to avoid drop-offs.",
+      },
+      {
+        title: "Trust Signals",
+        desc: "Show security badges, reviews, and clear policies.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-use-seo-to-drive-sales",
     title: "Building High-Performance Websites With Custom Solutions",
     mainImage: "/home/about-1.jpg",
     description:
@@ -30,17 +55,21 @@ const allBlogs = [
 ];
 
 interface PageProps {
-  params: { slug: string };
+  params: Promise<{
+    slug: string;
+  }>;
 }
 
 export function generateStaticParams() {
-  return allBlogs.map((blog) => ({
-    slug: blog.slug,
-  }));
+  return [
+    ...allBlogs.map((a) => ({
+      slug: a.slug,
+    })),
+  ];
 }
 
 export default async function BlogsComponent({ params }: PageProps) {
-  const { slug } = await params;
+  const { slug } = await params; // TypeScript now knows slug is a string
   const data = allBlogs.find((s) => s.slug === slug);
 
   if (!data) {
