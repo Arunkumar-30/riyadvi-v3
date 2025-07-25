@@ -36,7 +36,12 @@ export default function Testimonials() {
       <div className="py-16 mt-5 ">
         <div className="w-[90%] mx-auto flex justify-around items-center max-md:flex-col max-md:gap-8">
           {/* Left Text */}
-          <div className="w-full md:w-[40%]">
+          <div
+            className="w-full md:w-[40%]"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <h2 className="text-[12px] font-bold uppercase text-[#D4AF37] inline-flex items-center p-2">
               Testimonials
             </h2>
@@ -47,7 +52,12 @@ export default function Testimonials() {
           </div>
 
           {/* Swiper Slider */}
-          <div className="w-full md:w-[40%] max-md:mt-6">
+          <div
+            className="w-full md:w-[40%] max-md:mt-6"
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <div className="h-[400px] w-full flex justify-center items-center">
               <Swiper
                 direction="vertical"

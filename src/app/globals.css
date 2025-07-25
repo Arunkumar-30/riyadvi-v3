@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 
-
+html{
+  scroll-behavior: smooth;
+}
 
 
 .slider {
@@ -82,7 +84,7 @@
 .navbar__link:active,
 .active {
   text-decoration: underline;
-  color: #000;
+  color: #D4AF37;
 }
 .swiper-slide {
   width: auto !important;

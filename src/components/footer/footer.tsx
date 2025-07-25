@@ -12,9 +12,13 @@ const FooterComponent = () => {
           //   backgroundImage: `url('/home/banner-2.jpg')`,
           // }}
         >
-          <div className="flex flex-col items-center text-center">
+          <div className="flex flex-col items-center text-start">
             <div className="w-[90%] sm:w-[60%]">
-              <p className="text-xl sm:text-xl lg:text-3xl xl:text-4xl font-semibold text-white">
+              <p
+                className="text-xl sm:text-xl lg:text-3xl xl:text-4xl font-semibold text-white"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
                 Ready to take your business to the next level? <br /> Get
                 Started with Riyadvi Today!
               </p>
@@ -22,6 +26,8 @@ const FooterComponent = () => {
                 <button
                   className="group rounded-full duration-500 text-[#fff] p-2 bg-[#D4AF37]  w-[230px] flex items-center gap-4  text-[14px] border-none"
                   data-discover="true"
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
                 >
                   <svg
                     stroke="currentColor"

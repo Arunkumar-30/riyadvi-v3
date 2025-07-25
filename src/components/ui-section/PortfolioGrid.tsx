@@ -59,7 +59,7 @@ const PortfolioGrid = () => {
             <button
               key={cat}
               onClick={() => setFilter(cat)}
-              className={`px-4 py-2 rounded-full text-sm font-medium capitalize border transition ${
+              className={`px-4 py-2 rounded-full text-lg font-medium capitalize border transition ${
                 filter === cat
                   ? "bg-[#D4AF37] text-white border-[#D4AF37]"
                   : "bg-white text-gray-700 border-gray-500 hover:bg-[#D4AF37] hover:text-white"
@@ -81,6 +81,8 @@ const PortfolioGrid = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="group relative block w-full aspect-[5/3] overflow-hidden border border-gray-300 hover:shadow-lg transition-shadow duration-300"
+              data-aos="fade-up"
+              data-aos-duration="3000"
             >
               <Image
                 src={item.image}

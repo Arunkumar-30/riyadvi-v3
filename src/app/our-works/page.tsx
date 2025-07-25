@@ -47,11 +47,17 @@ const OurWorks = () => {
               className=" text-3xl lg:text-5xl xl:text-6xl 
                bg-contact-background bg-clip-text  
                 p-2"
+              data-aos="fade-up"
+              data-aos-duration="3000"
             >
               We take pride in the relationships we build with our clients
               through our seamless work.
             </h2>
-            <p className="text-[#585858] text-sm md:text-base lg:text-lg mt-5">
+            <p
+              className="text-[#585858] text-md xl:text-lg  font-[500] lg:text-lg mt-5"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               When our client is in need of solution capabilities to explore new
               strategic directions while its core team is busy with ongoing
               business needs, or requires an immediate time-to-market product
@@ -62,7 +68,11 @@ const OurWorks = () => {
               software features or components within scope, budget, and time
               schedules.
             </p>
-            <p className="text-[#585858] text-sm md:text-base lg:text-lg mt-5">
+            <p
+              className="text-[#585858] text-md xl:text-lg  font-[500] lg:text-lg mt-5"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               When our client is in need of solution capabilities to explore new
               strategic directions while its core team is busy with ongoing
               business needs, or requires an immediate time-to-market product
@@ -73,7 +83,11 @@ const OurWorks = () => {
               software features or components within scope, budget, and time
               schedules.
             </p>
-            <p className="text-[#585858] text-sm md:text-base lg:text-lg mt-5">
+            <p
+              className="text-[#585858] text-md xl:text-lg  font-[500] lg:text-lg mt-5"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               When our client is in need of solution capabilities to explore new
               strategic directions while its core team is busy with ongoing
               business needs, or requires an immediate time-to-market product
@@ -89,46 +103,68 @@ const OurWorks = () => {
       </section>
 
       <div className="bg-[#fff] py-16">
-        <div className="max-w-7xl mx-auto flex justify-between gap-y-6 py-16 max-md:flex-col">
-          {/* Founder Text Content */}
-          <div className="md:w-[50%] flex flex-col justify-center mt-8 md:mt-0">
-            <h2 className="text-[#161C52] text-[44px] max-md:text-[28px] font-semibold leading-snug">
-              About
-            </h2>
-            <p className="text-[#484A61] text-[18px] max-md:text-[14px] mt-6 leading-relaxed">
-              Yuvaraj, the heart and soul behind Aryu Enterprises, brings
-              together a unique blend of expertise and passion. With over 15
-              years of experience in technology services, branding, and
-              marketing, Yuvaraj founded Aryu Enterprises to address the
-              challenges he witnessed in the industry.
-              <br />
-              <span>
-                His journey, driven by a desire for meaningful change, inspired
-                the &quot;Client First&quot; mantra—ensuring innovation,
-                branding excellence, and genuine client partnerships.
-              </span>
-              <br />
-              <span>
-                His journey, driven by a desire for meaningful change, inspired
-                the &quot;Client First&quot; mantra—ensuring innovation,
-                branding excellence, and genuine client partnerships.
-              </span>
-            </p>
-          </div>
-          {/* Founder Image */}
-          <div className="md:w-[40%] md:h-[450px] max-md:mx-auto overflow-hidden rounded-4xl">
-            <img
-              alt="Mr. Yuvaraj, founder of Aryu Enterprises, leading innovation and growth in the industry."
-              className="w-full h-full object-cover duration-400 hover:scale-110 transition-transform"
-              src="/home/about-1.jpg"
-            />
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex flex-col-reverse md:flex-row justify-between gap-y-10 gap-x-6">
+            {/* Text Content */}
+            <div className="md:w-[50%] flex flex-col justify-center">
+              <h2
+                className="text-3xl text-black text-[44px] max-md:text-[28px] font-semibold leading-snug"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >
+                About
+              </h2>
+              <p
+                className="text-[#585858] text-md xl:text-lg font-[500] max-md:text-[14px] mt-6 leading-relaxed"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >
+                Yuvaraj, the heart and soul behind Aryu Enterprises, brings
+                together a unique blend of expertise and passion. With over 15
+                years of experience in technology services, branding, and
+                marketing, Yuvaraj founded Aryu Enterprises to address the
+                challenges he witnessed in the industry.
+                <br />
+                <span data-aos="fade-up" data-aos-duration="3000">
+                  His journey, driven by a desire for meaningful change,
+                  inspired the &quot;Client First&quot; mantra—ensuring
+                  innovation, branding excellence, and genuine client
+                  partnerships.
+                </span>
+                <br />
+                <span data-aos="fade-up" data-aos-duration="3000">
+                  His journey, driven by a desire for meaningful change,
+                  inspired the &quot;Client First&quot; mantra—ensuring
+                  innovation, branding excellence, and genuine client
+                  partnerships.
+                </span>
+              </p>
+            </div>
+
+            {/* Image */}
+            <div
+              className="md:w-[40%] md:h-[450px] mb-8 md:mb-0 max-md:mx-auto overflow-hidden rounded-3xl"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
+              <img
+                alt="Mr. Yuvaraj, founder of Aryu Enterprises"
+                className="w-full h-full object-cover duration-300 hover:scale-110 transition-transform"
+                src="/home/about-1.jpg"
+              />
+            </div>
           </div>
         </div>
       </div>
+
       <section id="Success Stories" className="mt-10">
         <div className="w-full px-4 overflow-hidden">
           <div className="text-center">
-            <h2 className="text-center text-3xl lg:text-4xl xl:text-5xl bg-contact-background bg-clip-text font-bold">
+            <h2
+              className="text-center lg:text-4xl xl:text-5xl bg-contact-background bg-clip-text text-3xl font-semibold text-black"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               Success Stories
             </h2>
           </div>
@@ -137,7 +173,11 @@ const OurWorks = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 w-full lg:w-[80%] mt-5 rounded-lg">
               {cards.map((card, index) => (
                 <div key={index}>
-                  <div className="p-6 bg-white rounded-lg transition-all duration-500 shadow-2xl hover:-translate-y-2 hover:shadow-3xl">
+                  <div
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                    className="p-6 bg-white rounded-lg transition-all duration-500 shadow-2xl hover:-translate-y-2 hover:shadow-3xl"
+                  >
                     <div className="flex justify-center">
                       <img
                         alt={card.title}
@@ -149,7 +189,7 @@ const OurWorks = () => {
                       <h2 className="text-start text-md md:text-2xl font-bold mt-4">
                         {card.title}
                       </h2>
-                      <p className="text-[#585858] text-sm md:text-base lg:text-lg mt-5 text-start">
+                      <p className="text-[#585858] text-md xl:text-lg  font-[500] lg:text-lg mt-5 text-start">
                         {card.desc}
                       </p>
                     </div>

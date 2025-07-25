@@ -117,7 +117,7 @@ const MobileMenu: React.FC<Props> = ({
                               route.includes("/solutions")) ||
                             (navItem.href === "#product" &&
                               route.includes("/products"))
-                              ? "text-[#00008f]"
+                              ? "text-[#D4AF37]"
                               : "text-gray-700"
                           }`}
                         >
@@ -153,7 +153,7 @@ const MobileMenu: React.FC<Props> = ({
                         <div key={idx} className="mt-5 ps-2">
                           <Link
                             href={dropdownItem.href}
-                            className="block font-semibold text-gray-700 hover:text-[#00008f]"
+                            className="block font-semibold text-gray-700 hover:text-[#D4AF37]"
                             onClick={handleLinkClick}
                           >
                             {dropdownItem.label}
@@ -174,7 +174,7 @@ const MobileMenu: React.FC<Props> = ({
                           route.includes("/solutions")) ||
                         (navItem.href === "#product" &&
                           route.includes("/products"))
-                          ? "text-[#00008f]"
+                          ? "text-[#D4AF37]"
                           : "text-gray-700"
                       }`}
                     >
@@ -188,15 +188,8 @@ const MobileMenu: React.FC<Props> = ({
             {/* Contact Link */}
             <div className="mt-6 space-y-5">
               <Link
-                href="/career"
-                className=" uppercase text-sm hover:cursor-pointer font-semibold"
-                onClick={handleLinkClick}
-              >
-                Career
-              </Link>
-              <Link
                 href="/contact-us"
-                className="bg-[#00004f] uppercase text-sm hover:bg-black text-white py-2 px-5 font-semibold block text-center"
+                className="bg-[#D4AF37] rounded-full uppercase text-sm hover:bg-black text-white py-2 px-5 font-semibold block text-center"
                 onClick={handleLinkClick}
               >
                 Contact

@@ -11,13 +11,21 @@ const About = () => {
       {/* Meet the Founder Section */}
 
       <div className="bg-[#fff] py-6">
-        <div className="max-w-7xl mx-auto px-4 max-md:px-6 flex items-center justify-between gap-y-6 py-16 max-md:flex-col">
+        <div className="max-w-7xl mx-auto px-4 max-md:px-6 flex flex-col-reverse md:flex-row items-center justify-between gap-y-6 py-16">
           {/* Text Content */}
           <div className="md:w-[50%] flex flex-col justify-center mt-8 md:mt-0">
-            <h2 className="text-[#161C52] text-[44px] max-md:text-[28px] font-semibold leading-snug h2-ani">
+            <h2
+              className="text-3xl text-black text-[44px] max-md:text-[28px] font-semibold leading-snug h2-ani"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               About
             </h2>
-            <p className="text-[#484A61] text-[18px] max-md:text-[14px] mt-6 leading-relaxed">
+            <p
+              className="text-[#585858] text-md xl:text-lg  font-[500] mt-6 leading-relaxed"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               Riyadvi Software Technologies is driven by a team of passionate
               innovators and experienced professionals who aim to transform the
               digital ecosystem. With a strong foundation in software
@@ -35,11 +43,19 @@ const About = () => {
             <div className="flex flex-col md:flex-row items-start justify-between gap-10 mt-5">
               <div className="md:w-1/2 flex flex-col justify-start">
                 <div className="flex items-center gap-3 mb-4">
-                  <h3 className="text-2xl font-semibold text-[#161C52]">
+                  <h3
+                    className="font-semibold text-3xl text-black"
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                  >
                     Our Vision
                   </h3>
                 </div>
-                <p className="text-[#484A61] text-[18px] max-md:text-[14px] leading-relaxed">
+                <p
+                  className="text-[#585858] text-md xl:text-lg  font-[500] leading-relaxed"
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                >
                   To be a global leader in digital innovation, enabling
                   enterprises to evolve through intelligent technology and
                   forward-thinking strategies.
@@ -48,11 +64,19 @@ const About = () => {
 
               <div className="md:w-1/2 flex flex-col justify-start">
                 <div className="flex items-center gap-3 mb-4">
-                  <h3 className="text-2xl font-semibold text-[#161C52]">
+                  <h3
+                    className="text-3xl text-black font-semibold "
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                  >
                     Our Mission
                   </h3>
                 </div>
-                <p className="text-[#484A61] text-[18px] max-md:text-[14px] leading-relaxed">
+                <p
+                  className="text-[#585858] text-md xl:text-lg  font-[500] leading-relaxed"
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                >
                   To craft high-quality digital products and solutions that
                   solve real-world problems, promote growth, and build lasting
                   client relationships through integrity, innovation, and
@@ -63,7 +87,11 @@ const About = () => {
           </div>
 
           {/* Founder/Team Image */}
-          <div className="md:w-[40%] h-auto md:h-[450px] max-md:mx-auto overflow-hidden rounded-4xl">
+          <div
+            className="md:w-[40%] h-auto md:h-[450px] max-md:mx-auto overflow-hidden rounded-4xl"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <img
               alt="Riyadvi Software Technologies team, empowering digital innovation globally."
               className="w-full h-full object-cover duration-400 hover:scale-110 transition-transform"
@@ -73,9 +101,13 @@ const About = () => {
         </div>
       </div>
       <div className="bg-[#fff]">
-        <div className="max-w-7xl mx-auto flex justify-between gap-y-6 py-16 max-md:flex-col">
+        <div className="max-w-7xl mx-auto px-4 max-md:px-6 flex flex-col md:flex-row items-center justify-between gap-y-6 py-16">
           {/* Founder Image */}
-          <div className="md:w-[40%] md:h-[450px] max-md:mx-auto overflow-hidden rounded-4xl">
+          <div
+            className="md:w-[40%] md:h-[450px] max-md:mx-auto overflow-hidden rounded-4xl"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <img
               alt="Mr. Yuvaraj, founder of Aryu Enterprises, leading innovation and growth in the industry."
               className="w-full h-full object-cover duration-400 hover:scale-110 transition-transform"
@@ -85,10 +117,18 @@ const About = () => {
 
           {/* Founder Text Content */}
           <div className="md:w-[50%] flex flex-col justify-center mt-8 md:mt-0">
-            <h2 className="text-[#161C52] text-[44px] max-md:text-[28px] font-semibold leading-snug">
+            <h2
+              className="text-3xl text-black text-[44px] max-md:text-[28px] font-semibold leading-snug"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               Our Focus
             </h2>
-            <p className="text-[#484A61] text-[18px] max-md:text-[14px] mt-6 leading-relaxed">
+            <p
+              className="text-[#585858] text-md xl:text-lg  font-[500] mt-6 leading-relaxed"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               At <strong>Riyadvi Software Technologies</strong>, we’re driven by
               a deep passion for solving complex business challenges through
               innovative digital solutions. With over a decade of expertise
@@ -97,7 +137,7 @@ const About = () => {
               and succeed in the digital age.
               <br />
               <br />
-              <span>
+              <span cdata-aos="fade-up" data-aos-duration="3000">
                 Our focus is on delivering technology that creates real
                 impact—whether it&apos;s transforming customer experiences,
                 optimizing business operations, or driving digital
@@ -109,13 +149,21 @@ const About = () => {
         </div>
       </div>
       <div className="bg-[#fff]">
-        <div className="max-w-7xl mx-auto flex justify-between gap-y-6 py-16 max-md:flex-col">
+        <div className="max-w-7xl mx-auto px-4 max-md:px-6 flex flex-col-reverse md:flex-row items-center justify-between gap-y-6 py-16">
           {/* Founder Text Content */}
           <div className="md:w-[50%] flex flex-col justify-center mt-8 md:mt-0">
-            <h2 className="text-[#161C52] text-[44px] max-md:text-[28px] font-semibold leading-snug">
+            <h2
+              className="text-3xl text-black text-[44px] max-md:text-[28px] font-semibold leading-snug"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               Our Partnerships
             </h2>
-            <p className="text-[#484A61] text-[18px] max-md:text-[14px] mt-6 leading-relaxed">
+            <p
+              className="text-[#585858] text-md xl:text-lg  font-[500] mt-6 leading-relaxed"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               At <strong>Riyadvi Software Technologies</strong>, we’re proud to
               collaborate with a diverse range of businesses across the
               financial landscape — from disruptive startups to established
@@ -128,7 +176,7 @@ const About = () => {
               drive digital transformation.
               <br />
               <br />
-              <span>
+              <span data-aos="fade-up" data-aos-duration="3000">
                 We don’t just keep pace with financial innovation —{" "}
                 <strong>we lead it</strong>. Through agile collaboration and
                 cutting-edge technology, we continue to push the boundaries of
@@ -136,19 +184,27 @@ const About = () => {
               </span>
               <br />
               <br />
-              <span>
+              <span data-aos="fade-up" data-aos-duration="3000">
                 Join us as we shape the future of finance, where complex
                 challenges are simplified, and opportunities are amplified
                 through smart software solutions.
               </span>
             </p>
-            <p className="text-[#161C52] text-[18px] max-md:text-[16px] font-semibold mt-6">
+            <p
+              className="text-[#161C52] text-[18px] max-md:text-[16px] font-semibold mt-6"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               Thank you for choosing Riyadvi Software Technologies — your
               success is our mission.
             </p>
           </div>
           {/* Founder Image */}
-          <div className="md:w-[40%] md:h-[450px] max-md:mx-auto overflow-hidden rounded-4xl">
+          <div
+            className="md:w-[40%] md:h-[450px] max-md:mx-auto overflow-hidden rounded-4xl"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <img
               alt="Mr. Yuvaraj, founder of Aryu Enterprises, leading innovation and growth in the industry."
               className="w-full h-full object-cover duration-400 hover:scale-110 transition-transform"
@@ -158,32 +214,29 @@ const About = () => {
         </div>
       </div>
       <div className="bg-[#fff] mb-10">
-        <div className="max-w-7xl mx-auto ">
-          <div className="flex justify-between gap-y-6 py-16 max-md:flex-col space-x-6">
-            {/* Founder Image */}
-
-            <div className="flex">
-              <div className="space-y-2">
-                <h2 className="text-[#161C52] text-[30px] max-md:text-[20px] font-semibold leading-snug">
-                  The team
-                </h2>
-                <img
-                  alt="Mr. Yuvaraj, founder of Aryu Enterprises, leading innovation and growth in the industry."
-                  className="w-60 h-60 object-cover duration-400 hover:scale-110 transition-transform"
-                  src="/home/devakumar.jpeg"
-                />
-              </div>
-            </div>
-
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex flex-col-reverse md:flex-row justify-between gap-y-10 gap-x-6 py-16">
             {/* Founder Text Content */}
-            <div className="flex-1 mt-8">
-              <h2 className="text-[#161C52] text-[44px] max-md:text-[28px] font-semibold leading-snug">
+            <div className="flex-1 mt-8 md:mt-0">
+              <h2
+                className="text-[#161C52] text-[44px] max-md:text-[28px] font-semibold leading-snug"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >
                 Devakumar
               </h2>
-              <h3 className="text-[#D4AF37] text-[34px] max-md:text-[18px] font-semibold leading-snug">
+              <h3
+                className="text-[#D4AF37] text-[34px] max-md:text-[18px] font-semibold leading-snug"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >
                 Director
               </h3>
-              <p className="text-[#484A61] text-[18px] max-md:text-[14px] mt-6 leading-relaxed">
+              <p
+                className="text-[#585858] text-md xl:text-lg font-[500] mt-6 leading-relaxed"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >
                 Devakumar is the visionary Director at{" "}
                 <strong>Riyadvi Software Technologies</strong>, driving
                 strategic innovation and growth. With a deep understanding of
@@ -193,12 +246,36 @@ const About = () => {
                 businesses through technology.
               </p>
             </div>
+
+            {/* Founder Image */}
+            <div className="w-full md:w-auto flex justify-center md:justify-start">
+              <div className="space-y-4 text-center md:text-left">
+                <h2
+                  className="text-3xl text-black text-[30px] max-md:text-[20px] font-semibold leading-snug"
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                >
+                  The team
+                </h2>
+                <img
+                  alt="Mr. Devakumar, Director of Riyadvi Software Technologies."
+                  className="w-full h-60 object-cover duration-400 hover:scale-110 transition-transform mx-auto md:mx-0"
+                  src="/home/devakumar.jpeg"
+                />
+              </div>
+            </div>
           </div>
         </div>
-        <div className="max-w-7xl mx-auto ">
+
+        {/* Team Full Image */}
+        <div
+          className="max-w-7xl mx-auto px-4"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           <img
-            alt="Mr. Yuvaraj, founder of Aryu Enterprises, leading innovation and growth in the industry."
-            className="w-full h-96 object-cover "
+            alt="Team of Riyadvi Software Technologies."
+            className="w-full h-96 object-cover"
             src="/home/team.jpg"
           />
         </div>
@@ -346,7 +423,7 @@ const About = () => {
                 Our Vision
               </h3>
             </div>
-            <p className="text-[#484A61] text-[18px] max-md:text-[14px] leading-relaxed">
+            <p className="text-[#585858] text-md xl:text-lg  font-[500] leading-relaxed">
               To become a global leader in digital transformation by empowering
               businesses with innovative solutions, creative strategies, and a
               commitment to excellence.
@@ -361,7 +438,7 @@ const About = () => {
               </h3>
             </div>
 
-            <p className="text-[#484A61] text-[18px] max-md:text-[14px] leading-relaxed mt-6 text-center">
+            <p className="text-[#585858] text-md xl:text-lg  font-[500] leading-relaxed mt-6 text-center">
               To deliver impactful digital solutions with a client-first
               mindset, fostering long-term growth, innovation, and reliable
               partnerships worldwide.

@@ -80,14 +80,18 @@ export default async function BlogsComponent({ params }: PageProps) {
     <div className="bg-white py-12 sm:py-20 px-4 sm:px-6 lg:px-8 ">
       <div className="max-w-5xl mx-auto space-y-10">
         {/* Title */}
-        <div>
+        <div data-aos="fade-up" data-aos-duration="2000">
           <h2 className="text-2xl sm:text-3xl font-semibold text-black mt-2">
             {data.title}
           </h2>
         </div>
 
         {/* Image */}
-        <div className="w-full overflow-hidden rounded-lg">
+        <div
+          className="w-full overflow-hidden rounded-lg"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           <Image
             src={data.mainImage}
             alt={data.title}
@@ -99,26 +103,44 @@ export default async function BlogsComponent({ params }: PageProps) {
         </div>
 
         {/* Description */}
-        <p className="text-[#585858] text-base sm:text-lg font-medium leading-relaxed">
+        <p
+          className="text-[#585858] text-base sm:text-lg font-medium leading-relaxed"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           {data.description}
         </p>
 
         {/* Problems and Solutions */}
         <div className="space-y-6">
-          <h3 className="text-2xl sm:text-3xl font-semibold text-black">
+          <h3
+            className="text-2xl sm:text-3xl font-semibold text-black"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             {data.subTitle1}
           </h3>
 
           <div>
-            <p className="text-lg font-semibold text-black">{data.problem1}</p>
-            <p className="text-[#585858] text-base font-medium mt-1">
+            <p
+              className="text-lg font-semibold text-black"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
+              {data.problem1}
+            </p>
+            <p
+              className="text-[#585858] text-base font-medium mt-1"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               {data.problem1Des}
             </p>
           </div>
 
           <ul className="space-y-4 list-disc list-inside text-[#444]">
             {data.solutions1.map((solution, index) => (
-              <li key={index}>
+              <li key={index} data-aos="fade-up" data-aos-duration="3000">
                 <span className="font-semibold text-black">
                   {solution.title}:
                 </span>{" "}

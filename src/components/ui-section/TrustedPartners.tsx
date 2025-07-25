@@ -4,12 +4,13 @@ import HeadingComponent from "./Heading";
 
 const TrustedPartner = () => {
   return (
-    <div className="max-w-7xl mx-auto my-10 mt-10">
+    <div className="max-w-7xl mx-auto my-10 mt-20">
       <HeadingComponent
         heading="Adored by Countless Satisfied Clients
 "
         description="Discover the wonderful experiences and accomplishments our clients have shared with us!"
       />
+
       <div className="max-w-7xl mx-auto lg:py-20 py-10">
         <div
           className="slider max-w-7xl"

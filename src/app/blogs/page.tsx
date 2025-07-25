@@ -40,10 +40,18 @@ export default function BlogSection() {
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
         {/* Section Header */}
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h2
+            className="text-3xl font-bold tracking-tight  text-black sm:text-4xl"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             From the blog
           </h2>
-          <p className="mt-2 text-lg leading-8 text-gray-600">
+          <p
+            className="mt-2 text-lg leading-8 text-[#585858] text-md xl:text-lg  font-[500]"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             Learn how to grow your business with our expert advice.
           </p>
         </div>
@@ -55,6 +63,8 @@ export default function BlogSection() {
               href={`/blogs/${post.slug}`}
               key={index}
               className="block group"
+              data-aos="fade-up"
+              data-aos-duration="3000"
             >
               <div className="flex flex-col md:flex-row gap-10 items-center md:items-start">
                 {/* Image */}
@@ -76,10 +86,10 @@ export default function BlogSection() {
                       {post.category}
                     </span>
                   </p>
-                  <h3 className="mt-2 text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
+                  <h3 className="mt-2 text-lg lg:text-xl xl:text-2xl font-[500] group-hover:text-[#D4AF37] transition-colors">
                     {post.title}
                   </h3>
-                  <p className="mt-4 text-base text-gray-700">
+                  <p className="mt-4 text-[#585858] text-md xl:text-lg  font-[500]">
                     {post.description}
                   </p>
 

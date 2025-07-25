@@ -133,7 +133,11 @@ const CaseStudies = () => {
         <div className="w-full flex justify-center">
           <div className="w-[90%] lg:w-[80%]">
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 mt-20 p-2">
-              <div className="group border-l-2 relative p-6 flex flex-col">
+              <div
+                className="group border-l-2 relative p-6 flex flex-col"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+              >
                 <div className="h-10 mt-14">
                   <div className="text-4xl lg:text-[60px] font-[500] text-[#000000]">
                     <CountUp
@@ -153,7 +157,11 @@ const CaseStudies = () => {
                   rate increase.
                 </p>
               </div>
-              <div className="group border-l-2 relative p-6 flex flex-col">
+              <div
+                className="group border-l-2 relative p-6 flex flex-col"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+              >
                 <div className="h-10 mt-14">
                   <div className="text-4xl lg:text-[60px] font-[500] text-[#000000]">
                     <CountUp
@@ -174,7 +182,11 @@ const CaseStudies = () => {
                   for a regional plumbing business.
                 </p>
               </div>
-              <div className="group border-l-2 relative p-6 flex flex-col">
+              <div
+                className="group border-l-2 relative p-6 flex flex-col"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+              >
                 <div className="h-10 mt-14">
                   <div className="text-4xl lg:text-[60px] font-[500] text-[#000000]">
                     <CountUp
@@ -192,7 +204,11 @@ const CaseStudies = () => {
                   international real estate expo.
                 </p>
               </div>
-              <div className="group border-l-2 relative p-6 flex flex-col">
+              <div
+                className="group border-l-2 relative p-6 flex flex-col"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+              >
                 <div className="h-10 mt-14">
                   <div className="text-4xl lg:text-[60px] font-[500] text-[#000000]">
                     <CountUp

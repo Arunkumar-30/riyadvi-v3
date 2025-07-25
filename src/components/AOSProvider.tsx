@@ -6,7 +6,6 @@ import "aos/dist/aos.css";
 const AOSProvider = () => {
   useEffect(() => {
     AOS.init({
-      duration: 800,
       once: true,
     });
   }, []);

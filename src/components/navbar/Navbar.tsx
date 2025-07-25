@@ -131,7 +131,7 @@ const NavbarComponent = () => {
               </button>
             </div>
             {/* Desktop Menu */}
-            <div className="hidden lg:flex  text-base font-semibold flex-1 ps-5 ms-5 space-x-5 relative">
+            <div className="hidden lg:flex text-base font-semibold flex-1 ps-5 ms-5 space-x-5 relative">
               {navLink.map((navItem, index) => (
                 <div key={index} className="group relative">
                   <Link
@@ -145,7 +145,7 @@ const NavbarComponent = () => {
                           route.includes("ar-vr") ||
                           route.includes("3d-modeling") ||
                           route.includes("game-development")))
-                        ? "active"
+                        ? "active "
                         : ""
                     }`}
                   >
@@ -181,7 +181,7 @@ const NavbarComponent = () => {
                                 {/* Link with Icon */}
                                 <Link
                                   href={dropdownItem.href}
-                                  className="flex items-center text-gray-700 hover:text-[#00008f] hover:bg-slate-100 py-2 px-4 rounded-md transition"
+                                  className="flex items-center text-gray-700 hover:text-[#D4AF37] hover:bg-slate-100 py-2 px-4 rounded-md transition"
                                 >
                                   {/* Icon on the left */}
                                   <Image
@@ -208,8 +208,10 @@ const NavbarComponent = () => {
             <div className="hidden text-lg font-semibold  lg:flex space-x-5 justify-end">
               <Link
                 href="/contact-us"
-                className={`px-6 py-2 rounded-full border border-[#D4AF37] bg-[#D4AF37] text-white hover:bg-[#D4AF37] hover:text-white transition duration-300 ${
-                  route === "/contact-us" ? "bg-[#D4AF37] text-white" : ""
+                className={`px-6 py-2 rounded-full border-2 border-[#D4AF37] bg-[#D4AF37] text-white  transition duration-300 ${
+                  route === "/contact-us"
+                    ? "hover:bg-white hover:text-black"
+                    : ""
                 }`}
               >
                 Get a Quote

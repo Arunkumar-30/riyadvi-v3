@@ -121,14 +121,26 @@ const WhyChooseUs = () => {
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start justify-between gap-10">
           {/* Left Section */}
           <div className=" space-y-6">
-            <p className="text-[16px] font-bold uppercase text-[#D4AF37]">
+            <p
+              className="text-[16px] font-bold uppercase text-[#D4AF37]"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               Why Choose Riyadvi?
             </p>
-            <h2 className="text-3xl font-semibold text-black">
+            <h2
+              className="text-3xl font-semibold text-black"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               We’re not just service providers.<br></br> We’re your tech
               partners.
             </h2>
-            <p className="text-[#585858] text-md xl:text-lg  font-[500] mt-4 max-w-md">
+            <p
+              className="text-[#585858] text-md xl:text-lg  font-[500] mt-4 max-w-md"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               At Riyadvi Software Technologies, we ensure predictable, scalable,
               and sustainable growth for your business—making the journey as
               rewarding as the destination.
@@ -136,6 +148,8 @@ const WhyChooseUs = () => {
             <button
               className="group duration-500 rounded-full text-[#fff] p-2 bg-[#D4AF37]  w-auto pr-8 flex items-center gap-4  text-[14px] border-none"
               data-discover="true"
+              data-aos="fade-up"
+              data-aos-duration="3000"
             >
               <svg
                 stroke="currentColor"
@@ -183,6 +197,8 @@ const WhyChooseUs = () => {
                 <div
                   key={index}
                   className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500 group hover:border-[#D4AF37] hover:border-2"
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
                 >
                   <img
                     src={item.icon}

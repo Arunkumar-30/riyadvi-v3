@@ -15,10 +15,14 @@ const ServiceComponent = () => {
         </div>
 
         <div>
-          <div className="flex justify-center w-full">
+          <div className="flex justify-center max-w-7xl mx-auto">
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-2 gap-5 lg:gap-8 max-w-7xl mx-auto mt-5 lg:mt-10">
               {/* Card 1 */}
-              <div className="group relative w-full bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500">
+              <div
+                className="group relative w-full bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >
                 <div className="flex items-center space-x-4">
                   <div className="w-16 h-16 flex-shrink-0">
                     <img
@@ -53,7 +57,11 @@ const ServiceComponent = () => {
               </div>
 
               {/* Card 2 */}
-              <div className="group relative w-full bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500">
+              <div
+                className="group relative w-full bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >
                 <div className="flex items-center space-x-4">
                   <div className="w-16 h-16 flex-shrink-0">
                     <img
@@ -88,7 +96,11 @@ const ServiceComponent = () => {
               </div>
 
               {/* Card 3 */}
-              <div className="group relative w-full bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500 animate-fade-in-left">
+              <div
+                className="group relative w-full bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500 animate-fade-in-left"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >
                 <div className="flex items-center space-x-4">
                   <div className="w-16 h-16 flex-shrink-0">
                     <img
@@ -123,7 +135,11 @@ const ServiceComponent = () => {
               </div>
 
               {/* Card 4 */}
-              <div className="group relative w-full bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500 animate-fade-in-right">
+              <div
+                className="group relative w-full bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500 animate-fade-in-right"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >
                 <div className="flex items-center space-x-4">
                   <div className="w-16 h-16 flex-shrink-0">
                     <img
@@ -158,7 +174,7 @@ const ServiceComponent = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-center items-center mt-10">
+          <div className="flex justify-center items-center mt-10 ">
             <button
               className="group duration-500 rounded-full text-[#fff] p-2 bg-[#D4AF37]  w-auto pr-8 flex items-center gap-4  text-[14px] border-none"
               data-discover="true"

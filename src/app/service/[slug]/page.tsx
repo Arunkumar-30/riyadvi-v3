@@ -764,7 +764,11 @@ export default async function ServiceComponent({ params }: PageProps) {
             <div className="w-full max-w-7xl h-fit flex flex-col lg:flex-row gap-10 p-4 lg:p-10">
               {/* Left: Image Section */}
               <div className="w-full lg:w-1/2 flex justify-center items-center">
-                <div className="w-full max-w-[400px] aspect-square rounded-xl overflow-hidden shadow-md">
+                <div
+                  className="w-full max-w-[400px] aspect-square rounded-xl overflow-hidden shadow-md"
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                >
                   <Image
                     src={data?.mainImag || ""}
                     alt="Web Development"
@@ -777,17 +781,35 @@ export default async function ServiceComponent({ params }: PageProps) {
 
               {/* Right: Content Section */}
               <div className="w-full lg:w-1/2 space-y-4 flex flex-col justify-center">
-                <h2 className="text-2xl md:text-3xl lg:text-5xl text-[#2e3263] font-bold lg:leading-[55px]">
+                <h2
+                  className=" md:text-3xl lg:text-5xl text-3xl text-black font-bold lg:leading-[55px]"
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                >
                   {data?.title}
                 </h2>
 
-                <p className="text-lg md:text-xl lg:text-3xl font-bold text-[#00619F] lg:leading-[35px]">
+                <p
+                  className="text-lg md:text-xl lg:text-3xl font-bold text-[#00619F] lg:leading-[35px]"
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                >
                   {data?.subTitle}
                 </p>
 
                 <div className="text-gray-600 space-y-4">
-                  <p className="text-sm md:text-base lg:text-lg">{firstPart}</p>
-                  <p className="text-sm md:text-base lg:text-lg">
+                  <p
+                    className="text-sm md:text-base text-[#585858] text-md xl:text-lg  font-[500]"
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                  >
+                    {firstPart}
+                  </p>
+                  <p
+                    className="text-sm md:text-base text-[#585858] text-md xl:text-lg  font-[500]"
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                  >
                     {secondPart}
                   </p>
                 </div>
@@ -799,9 +821,11 @@ export default async function ServiceComponent({ params }: PageProps) {
           <div className="w-full overflow-hidden px-4">
             <div>
               <h2
-                className="text-center text-3xl lg:text-4xl xl:text-5xl
+                className="text-center text-3xl text-black lg:text-4xl xl:text-5xl
                bg-contact-background bg-clip-text
                font-bold p-2"
+                data-aos="fade-up"
+                data-aos-duration="3000"
               >
                 Our Offerings
               </h2>
@@ -812,12 +836,18 @@ export default async function ServiceComponent({ params }: PageProps) {
                 {data?.offering?.map((data1, idx) => (
                   <div
                     key={idx}
-                    className="group bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-1"
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                    className={`group p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 ${
+                      idx === 5 ? "bg-[#D4AF37]" : "bg-white"
+                    }`}
+
+                    // className="group bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-1"
                   >
                     <h2 className="text-xl xl:text-2xl font-bold text-black">
                       {data1.title}
                     </h2>
-                    <p className="text-[#666666] mt-3 font-normal text-sm md:text-base lg:text-lg">
+                    <p className=" mt-3  text-sm md:text-base lg:text-lg text-[#585858] text-md xl:text-lg  font-[500]">
                       {data1.description}
                     </p>
                   </div>
@@ -830,18 +860,26 @@ export default async function ServiceComponent({ params }: PageProps) {
           <div className="w-full px-4 py-10 overflow-hidden bg-custom-gradient bg-[#005F9C0D]">
             <div className="text-center">
               <div className="relative w-full flex justify-center items-center h-[50px] overflow-hidden">
-                <h2 className="text-center text-3xl lg:text-4xl xl:text-5xl  font-bold py-10">
+                <h2
+                  className="text-center text-3xl text-black lg:text-4xl xl:text-5xl  font-bold py-10"
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                >
                   Business Benefits
                 </h2>
               </div>
             </div>
 
             <div className="flex justify-center w-full p-2">
-              <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 w-full lg:w-[80%] mt-5 lg:mt-10 rounded-xl border overflow-hidden">
+              <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 w-full lg:w-[80%] mt-5 lg:mt-10 rounded-xl overflow-hidden">
                 {data?.benifits?.map((data1, idx) => (
                   <div
                     key={idx}
-                    className="w-full bg-white p-6 transition border-l-2 border"
+                    className={`w-full  p-6 transition border-l-2 border ${
+                      idx === 3 ? "bg-[#D4AF37]" : "bg-white"
+                    }`}
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
                   >
                     <div className="flex justify-center">
                       <div className="w-16 h-16 flex-shrink-0">
@@ -856,7 +894,7 @@ export default async function ServiceComponent({ params }: PageProps) {
                       <h2 className="text-center text-xl lg:text-2xl xxl:text-3xl font-bold mt-4">
                         {data1.title}
                       </h2>
-                      <p className="text-[#585858] text-sm md:text-base lg:text-lg mt-5">
+                      <p className="text-[#585858] text-md xl:text-lg  font-[500] text-sm md:text-base lg:text-lg mt-5">
                         {data1.description}
                       </p>
                     </div>
@@ -869,7 +907,11 @@ export default async function ServiceComponent({ params }: PageProps) {
         <section id="Industry Use Cases" className="mt-10 lg:mt-20">
           <div className="w-full px-4 overflow-hidden">
             <div className="text-center">
-              <h2 className="text-center text-3xl lg:text-4xl xl:text-5xl bg-contact-background bg-clip-text  font-bold">
+              <h2
+                className="text-center text-3xl text-black lg:text-4xl xl:text-5xl bg-contact-background bg-clip-text  font-bold"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >
                 Industry Use Cases
               </h2>
             </div>
@@ -879,7 +921,11 @@ export default async function ServiceComponent({ params }: PageProps) {
                 {data?.industry?.map((data1, idx) => (
                   <div
                     key={idx}
-                    className="p-6 bg-white rounded-lg transition-all duration-500 hover:shadow-2xl hover:-translate-y-2"
+                    className={`p-6  rounded-lg transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 ${
+                      idx === 5 ? "bg-[#D4AF37]" : "bg-white"
+                    }`}
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
                   >
                     <div className="flex justify-center">
                       <div className="w-16 h-16">
@@ -894,7 +940,7 @@ export default async function ServiceComponent({ params }: PageProps) {
                       <h2 className="text-center text-md md:text-2xl font-bold mt-4">
                         {data1.title}
                       </h2>
-                      <p className="text-[#585858] text-sm md:text-base lg:text-lg mt-5">
+                      <p className="text-[#585858] text-md xl:text-lg  font-[500]  text-sm md:text-base lg:text-lg mt-5">
                         {data1.description}
                       </p>
                     </div>
