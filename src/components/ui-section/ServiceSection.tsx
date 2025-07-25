@@ -21,7 +21,7 @@ const ServiceComponent = () => {
               <div
                 className="group relative w-full bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500"
                 data-aos="fade-up"
-                data-aos-duration="3000"
+                data-aos-duration="2000"
               >
                 <div className="flex items-center space-x-4">
                   <div className="w-16 h-16 flex-shrink-0">
@@ -60,7 +60,7 @@ const ServiceComponent = () => {
               <div
                 className="group relative w-full bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500"
                 data-aos="fade-up"
-                data-aos-duration="3000"
+                data-aos-duration="2000"
               >
                 <div className="flex items-center space-x-4">
                   <div className="w-16 h-16 flex-shrink-0">
@@ -99,7 +99,7 @@ const ServiceComponent = () => {
               <div
                 className="group relative w-full bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500 animate-fade-in-left"
                 data-aos="fade-up"
-                data-aos-duration="3000"
+                data-aos-duration="2000"
               >
                 <div className="flex items-center space-x-4">
                   <div className="w-16 h-16 flex-shrink-0">
@@ -138,7 +138,7 @@ const ServiceComponent = () => {
               <div
                 className="group relative w-full bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500 animate-fade-in-right"
                 data-aos="fade-up"
-                data-aos-duration="3000"
+                data-aos-duration="2000"
               >
                 <div className="flex items-center space-x-4">
                   <div className="w-16 h-16 flex-shrink-0">

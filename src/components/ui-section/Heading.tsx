@@ -12,14 +12,14 @@ const HeadingComponent: React.FC<PageProps> = ({ heading, description }) => {
       <h2
         className="text-[16px] font-bold uppercase text-[#D4AF37]"
         data-aos="fade-up"
-        data-aos-duration="3000"
+        data-aos-duration="2000"
       >
         {heading}
       </h2>
       <p
         className="text-3xl font-semibold text-black"
         data-aos="fade-up"
-        data-aos-duration="3000"
+        data-aos-duration="2000"
       >
         {" "}
         {description}

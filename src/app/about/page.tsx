@@ -17,14 +17,14 @@ const About = () => {
             <h2
               className="text-3xl text-black text-[44px] max-md:text-[28px] font-semibold leading-snug h2-ani"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               About
             </h2>
             <p
               className="text-[#585858] text-md xl:text-lg  font-[500] mt-6 leading-relaxed"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               Riyadvi Software Technologies is driven by a team of passionate
               innovators and experienced professionals who aim to transform the
@@ -46,7 +46,7 @@ const About = () => {
                   <h3
                     className="font-semibold text-3xl text-black"
                     data-aos="fade-up"
-                    data-aos-duration="3000"
+                    data-aos-duration="2000"
                   >
                     Our Vision
                   </h3>
@@ -54,7 +54,7 @@ const About = () => {
                 <p
                   className="text-[#585858] text-md xl:text-lg  font-[500] leading-relaxed"
                   data-aos="fade-up"
-                  data-aos-duration="3000"
+                  data-aos-duration="2000"
                 >
                   To be a global leader in digital innovation, enabling
                   enterprises to evolve through intelligent technology and
@@ -67,7 +67,7 @@ const About = () => {
                   <h3
                     className="text-3xl text-black font-semibold "
                     data-aos="fade-up"
-                    data-aos-duration="3000"
+                    data-aos-duration="2000"
                   >
                     Our Mission
                   </h3>
@@ -75,7 +75,7 @@ const About = () => {
                 <p
                   className="text-[#585858] text-md xl:text-lg  font-[500] leading-relaxed"
                   data-aos="fade-up"
-                  data-aos-duration="3000"
+                  data-aos-duration="2000"
                 >
                   To craft high-quality digital products and solutions that
                   solve real-world problems, promote growth, and build lasting
@@ -90,7 +90,7 @@ const About = () => {
           <div
             className="md:w-[40%] h-auto md:h-[450px] max-md:mx-auto overflow-hidden rounded-4xl"
             data-aos="fade-up"
-            data-aos-duration="3000"
+            data-aos-duration="2000"
           >
             <img
               alt="Riyadvi Software Technologies team, empowering digital innovation globally."
@@ -106,7 +106,7 @@ const About = () => {
           <div
             className="md:w-[40%] md:h-[450px] max-md:mx-auto overflow-hidden rounded-4xl"
             data-aos="fade-up"
-            data-aos-duration="3000"
+            data-aos-duration="2000"
           >
             <img
               alt="Mr. Yuvaraj, founder of Aryu Enterprises, leading innovation and growth in the industry."
@@ -120,14 +120,14 @@ const About = () => {
             <h2
               className="text-3xl text-black text-[44px] max-md:text-[28px] font-semibold leading-snug"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               Our Focus
             </h2>
             <p
               className="text-[#585858] text-md xl:text-lg  font-[500] mt-6 leading-relaxed"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               At <strong>Riyadvi Software Technologies</strong>, we’re driven by
               a deep passion for solving complex business challenges through
@@ -137,7 +137,7 @@ const About = () => {
               and succeed in the digital age.
               <br />
               <br />
-              <span cdata-aos="fade-up" data-aos-duration="3000">
+              <span cdata-aos="fade-up" data-aos-duration="2000">
                 Our focus is on delivering technology that creates real
                 impact—whether it&apos;s transforming customer experiences,
                 optimizing business operations, or driving digital
@@ -155,14 +155,14 @@ const About = () => {
             <h2
               className="text-3xl text-black text-[44px] max-md:text-[28px] font-semibold leading-snug"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               Our Partnerships
             </h2>
             <p
               className="text-[#585858] text-md xl:text-lg  font-[500] mt-6 leading-relaxed"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               At <strong>Riyadvi Software Technologies</strong>, we’re proud to
               collaborate with a diverse range of businesses across the
@@ -176,7 +176,7 @@ const About = () => {
               drive digital transformation.
               <br />
               <br />
-              <span data-aos="fade-up" data-aos-duration="3000">
+              <span data-aos="fade-up" data-aos-duration="2000">
                 We don’t just keep pace with financial innovation —{" "}
                 <strong>we lead it</strong>. Through agile collaboration and
                 cutting-edge technology, we continue to push the boundaries of
@@ -184,7 +184,7 @@ const About = () => {
               </span>
               <br />
               <br />
-              <span data-aos="fade-up" data-aos-duration="3000">
+              <span data-aos="fade-up" data-aos-duration="2000">
                 Join us as we shape the future of finance, where complex
                 challenges are simplified, and opportunities are amplified
                 through smart software solutions.
@@ -193,7 +193,7 @@ const About = () => {
             <p
               className="text-[#161C52] text-[18px] max-md:text-[16px] font-semibold mt-6"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               Thank you for choosing Riyadvi Software Technologies — your
               success is our mission.
@@ -203,7 +203,7 @@ const About = () => {
           <div
             className="md:w-[40%] md:h-[450px] max-md:mx-auto overflow-hidden rounded-4xl"
             data-aos="fade-up"
-            data-aos-duration="3000"
+            data-aos-duration="2000"
           >
             <img
               alt="Mr. Yuvaraj, founder of Aryu Enterprises, leading innovation and growth in the industry."
@@ -221,21 +221,21 @@ const About = () => {
               <h2
                 className="text-[#161C52] text-[44px] max-md:text-[28px] font-semibold leading-snug"
                 data-aos="fade-up"
-                data-aos-duration="3000"
+                data-aos-duration="2000"
               >
                 Devakumar
               </h2>
               <h3
                 className="text-[#D4AF37] text-[34px] max-md:text-[18px] font-semibold leading-snug"
                 data-aos="fade-up"
-                data-aos-duration="3000"
+                data-aos-duration="2000"
               >
                 Director
               </h3>
               <p
                 className="text-[#585858] text-md xl:text-lg font-[500] mt-6 leading-relaxed"
                 data-aos="fade-up"
-                data-aos-duration="3000"
+                data-aos-duration="2000"
               >
                 Devakumar is the visionary Director at{" "}
                 <strong>Riyadvi Software Technologies</strong>, driving
@@ -253,7 +253,7 @@ const About = () => {
                 <h2
                   className="text-3xl text-black text-[30px] max-md:text-[20px] font-semibold leading-snug"
                   data-aos="fade-up"
-                  data-aos-duration="3000"
+                  data-aos-duration="2000"
                 >
                   The team
                 </h2>
@@ -271,7 +271,7 @@ const About = () => {
         <div
           className="max-w-7xl mx-auto px-4"
           data-aos="fade-up"
-          data-aos-duration="3000"
+          data-aos-duration="2000"
         >
           <img
             alt="Team of Riyadvi Software Technologies."

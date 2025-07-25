@@ -13,7 +13,7 @@ const BannerSlider = () => {
             <div
               className="text-white max-w-3xl space-y-6 text-start sm:text-left"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold leading-tight">
                 Build, Grow & Transform Your Business with Digital Solutions
@@ -45,7 +45,7 @@ const BannerSlider = () => {
             <div
               className="flex justify-center sm:justify-end"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               <Image
                 src="/home/lap.png"

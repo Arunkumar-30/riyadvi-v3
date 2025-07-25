@@ -22,7 +22,7 @@ export default function ContactSection() {
           <div
             className="bg-white text-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-[#D4AF37]"
             data-aos="fade-up"
-            data-aos-duration="3000"
+            data-aos-duration="2000"
           >
             <h3 className="text-lg lg:text-xl xl:text-2xl font-[500] mb-1">
               Location
@@ -34,7 +34,7 @@ export default function ContactSection() {
           <div
             className="bg-white text-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-[#D4AF37]"
             data-aos="fade-up"
-            data-aos-duration="3000"
+            data-aos-duration="2000"
           >
             <h3 className="text-lg lg:text-xl xl:text-2xl font-[500] mb-1">
               Phone
@@ -46,7 +46,7 @@ export default function ContactSection() {
           <div
             className="bg-white text-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-[#D4AF37]"
             data-aos="fade-up"
-            data-aos-duration="3000"
+            data-aos-duration="2000"
           >
             <h3 className="text-lg lg:text-xl xl:text-2xl font-[500] mb-1">
               Email
@@ -62,21 +62,21 @@ export default function ContactSection() {
             <h3
               className="text-primary text-lg font-medium mb-2 border-l-4 border-[#D4AF37] pl-2"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               Contact Us
             </h3>
             <h2
               className="text-3xl sm:text-4xl font-bold mb-4"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               Do you have any questions?
             </h2>
             <p
               className="text-[#585858] text-md xl:text-lg mt-1 font-[400] mb-6"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               Click the link below for a free consultation with Mr. Devakumar,
               your coding friend!
@@ -85,7 +85,7 @@ export default function ContactSection() {
             <div
               className="flex items-center gap-4"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               <img
                 src="/home/devakumar.jpeg"
@@ -96,7 +96,7 @@ export default function ContactSection() {
                 <p
                   className="font-bold text-lg"
                   data-aos="fade-up"
-                  data-aos-duration="3000"
+                  data-aos-duration="2000"
                 >
                   Mr. Devakumar B{" "}
                   <a
@@ -111,7 +111,7 @@ export default function ContactSection() {
                 <p
                   className="text-gray-500"
                   data-aos="fade-up"
-                  data-aos-duration="3000"
+                  data-aos-duration="2000"
                 >
                   Founder Of Riyadvi
                 </p>
@@ -133,14 +133,14 @@ export default function ContactSection() {
                 type="text"
                 placeholder="Full Name"
                 data-aos="fade-up"
-                data-aos-duration="3000"
+                data-aos-duration="2000"
                 className="px-4 py-3 rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-[#D4AF37]"
               />
               <input
                 type="email"
                 placeholder="Email"
                 data-aos="fade-up"
-                data-aos-duration="3000"
+                data-aos-duration="2000"
                 className="px-4 py-3 rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-[#D4AF37]"
               />
             </div>
@@ -149,13 +149,13 @@ export default function ContactSection() {
                 type="tel"
                 placeholder="Phone Number"
                 data-aos="fade-up"
-                data-aos-duration="3000"
+                data-aos-duration="2000"
                 className="px-4 py-3 rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-[#D4AF37]"
               />
               <select
                 className="w-full px-4 py-3 rounded-md border border-gray-300 bg-white text-gray-600 focus:outline-none focus:ring-2 focus:ring-[#D4AF37]"
                 data-aos="fade-up"
-                data-aos-duration="3000"
+                data-aos-duration="2000"
               >
                 <option value="">Select a Service</option>
                 <option>Web Development</option>
@@ -167,7 +167,7 @@ export default function ContactSection() {
             <textarea
               placeholder="Your Message"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
               className="w-full px-4 py-3 rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-[#D4AF37]"
             ></textarea>
 
@@ -175,7 +175,7 @@ export default function ContactSection() {
               type="submit"
               className="w-full py-3 rounded-md bg-gradient-to-r from-indigo-500 to-[#D4AF37] text-white font-semibold hover:from-indigo-600 hover:to-[#D4AF37] transition shadow-md"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               Submit
             </button>
@@ -183,7 +183,7 @@ export default function ContactSection() {
         </div>
       </section>
       <section>
-        <div data-aos="fade-up" data-aos-duration="3000">
+        <div data-aos="fade-up" data-aos-duration="2000">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3517.402342220697!2d80.26208697454766!3d13.044829313269599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267d1f14f156d%3A0x6737f140561b363d!2sRiyadvi%20Software%20Technologies%20Private%20Limited!5e1!3m2!1sen!2sin!4v1752063621882!5m2!1sen!2sin"
             width="100%"

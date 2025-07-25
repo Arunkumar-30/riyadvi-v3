@@ -27,7 +27,7 @@ const FooterComponent = () => {
                   className="group rounded-full duration-500 text-[#fff] p-2 bg-[#D4AF37]  w-[230px] flex items-center gap-4  text-[14px] border-none"
                   data-discover="true"
                   data-aos="fade-up"
-                  data-aos-duration="3000"
+                  data-aos-duration="2000"
                 >
                   <svg
                     stroke="currentColor"

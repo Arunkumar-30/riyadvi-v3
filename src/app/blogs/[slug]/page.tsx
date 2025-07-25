@@ -90,7 +90,7 @@ export default async function BlogsComponent({ params }: PageProps) {
         <div
           className="w-full overflow-hidden rounded-lg"
           data-aos="fade-up"
-          data-aos-duration="3000"
+          data-aos-duration="2000"
         >
           <Image
             src={data.mainImage}
@@ -106,7 +106,7 @@ export default async function BlogsComponent({ params }: PageProps) {
         <p
           className="text-[#585858] text-base sm:text-lg font-medium leading-relaxed"
           data-aos="fade-up"
-          data-aos-duration="3000"
+          data-aos-duration="2000"
         >
           {data.description}
         </p>
@@ -116,7 +116,7 @@ export default async function BlogsComponent({ params }: PageProps) {
           <h3
             className="text-2xl sm:text-3xl font-semibold text-black"
             data-aos="fade-up"
-            data-aos-duration="3000"
+            data-aos-duration="2000"
           >
             {data.subTitle1}
           </h3>
@@ -125,14 +125,14 @@ export default async function BlogsComponent({ params }: PageProps) {
             <p
               className="text-lg font-semibold text-black"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               {data.problem1}
             </p>
             <p
               className="text-[#585858] text-base font-medium mt-1"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               {data.problem1Des}
             </p>
@@ -140,7 +140,7 @@ export default async function BlogsComponent({ params }: PageProps) {
 
           <ul className="space-y-4 list-disc list-inside text-[#444]">
             {data.solutions1.map((solution, index) => (
-              <li key={index} data-aos="fade-up" data-aos-duration="3000">
+              <li key={index} data-aos="fade-up" data-aos-duration="2000">
                 <span className="font-semibold text-black">
                   {solution.title}:
                 </span>{" "}

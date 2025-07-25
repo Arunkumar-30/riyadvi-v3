@@ -17,7 +17,7 @@ export default function ContactComponent() {
       <section className="banner-image px-4 py-20 sm:px-6 lg:px-20 ">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10">
           {/* Left Section */}
-          <div data-aos="fade-right" data-aos-duration="3000">
+          <div data-aos="fade-right" data-aos-duration="2000">
             <h2 className="text-[16px]  uppercase text-[#D4AF37] font-bold mb-4">
               Get a Free Business Audit Report
             </h2>
@@ -38,7 +38,7 @@ export default function ContactComponent() {
           <form
             className="bg-white p-6 rounded-lg shadow-lg space-y-4"
             data-aos="fade-left"
-            data-aos-duration="3000"
+            data-aos-duration="2000"
             onSubmit={(e) => {
               e.preventDefault();
               // handle form submit here

@@ -48,7 +48,7 @@ const OurWorks = () => {
                bg-contact-background bg-clip-text  
                 p-2"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               We take pride in the relationships we build with our clients
               through our seamless work.
@@ -56,7 +56,7 @@ const OurWorks = () => {
             <p
               className="text-[#585858] text-md xl:text-lg  font-[500] lg:text-lg mt-5"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               When our client is in need of solution capabilities to explore new
               strategic directions while its core team is busy with ongoing
@@ -71,7 +71,7 @@ const OurWorks = () => {
             <p
               className="text-[#585858] text-md xl:text-lg  font-[500] lg:text-lg mt-5"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               When our client is in need of solution capabilities to explore new
               strategic directions while its core team is busy with ongoing
@@ -86,7 +86,7 @@ const OurWorks = () => {
             <p
               className="text-[#585858] text-md xl:text-lg  font-[500] lg:text-lg mt-5"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               When our client is in need of solution capabilities to explore new
               strategic directions while its core team is busy with ongoing
@@ -110,14 +110,14 @@ const OurWorks = () => {
               <h2
                 className="text-3xl text-black text-[44px] max-md:text-[28px] font-semibold leading-snug"
                 data-aos="fade-up"
-                data-aos-duration="3000"
+                data-aos-duration="2000"
               >
                 About
               </h2>
               <p
                 className="text-[#585858] text-md xl:text-lg font-[500] max-md:text-[14px] mt-6 leading-relaxed"
                 data-aos="fade-up"
-                data-aos-duration="3000"
+                data-aos-duration="2000"
               >
                 Yuvaraj, the heart and soul behind Aryu Enterprises, brings
                 together a unique blend of expertise and passion. With over 15
@@ -125,14 +125,14 @@ const OurWorks = () => {
                 marketing, Yuvaraj founded Aryu Enterprises to address the
                 challenges he witnessed in the industry.
                 <br />
-                <span data-aos="fade-up" data-aos-duration="3000">
+                <span data-aos="fade-up" data-aos-duration="2000">
                   His journey, driven by a desire for meaningful change,
                   inspired the &quot;Client First&quot; mantra—ensuring
                   innovation, branding excellence, and genuine client
                   partnerships.
                 </span>
                 <br />
-                <span data-aos="fade-up" data-aos-duration="3000">
+                <span data-aos="fade-up" data-aos-duration="2000">
                   His journey, driven by a desire for meaningful change,
                   inspired the &quot;Client First&quot; mantra—ensuring
                   innovation, branding excellence, and genuine client
@@ -145,7 +145,7 @@ const OurWorks = () => {
             <div
               className="md:w-[40%] md:h-[450px] mb-8 md:mb-0 max-md:mx-auto overflow-hidden rounded-3xl"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               <img
                 alt="Mr. Yuvaraj, founder of Aryu Enterprises"
@@ -163,7 +163,7 @@ const OurWorks = () => {
             <h2
               className="text-center lg:text-4xl xl:text-5xl bg-contact-background bg-clip-text text-3xl font-semibold text-black"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               Success Stories
             </h2>
@@ -175,7 +175,7 @@ const OurWorks = () => {
                 <div key={index}>
                   <div
                     data-aos="fade-up"
-                    data-aos-duration="3000"
+                    data-aos-duration="2000"
                     className="p-6 bg-white rounded-lg transition-all duration-500 shadow-2xl hover:-translate-y-2 hover:shadow-3xl"
                   >
                     <div className="flex justify-center">

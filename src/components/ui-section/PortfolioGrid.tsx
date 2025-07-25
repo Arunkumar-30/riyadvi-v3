@@ -82,7 +82,7 @@ const PortfolioGrid = () => {
               rel="noopener noreferrer"
               className="group relative block w-full aspect-[5/3] overflow-hidden border border-gray-300 hover:shadow-lg transition-shadow duration-300"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               <Image
                 src={item.image}

@@ -767,7 +767,7 @@ export default async function ServiceComponent({ params }: PageProps) {
                 <div
                   className="w-full max-w-[400px] aspect-square rounded-xl overflow-hidden shadow-md"
                   data-aos="fade-up"
-                  data-aos-duration="3000"
+                  data-aos-duration="2000"
                 >
                   <Image
                     src={data?.mainImag || ""}
@@ -784,7 +784,7 @@ export default async function ServiceComponent({ params }: PageProps) {
                 <h2
                   className=" md:text-3xl lg:text-5xl text-3xl text-black font-bold lg:leading-[55px]"
                   data-aos="fade-up"
-                  data-aos-duration="3000"
+                  data-aos-duration="2000"
                 >
                   {data?.title}
                 </h2>
@@ -792,7 +792,7 @@ export default async function ServiceComponent({ params }: PageProps) {
                 <p
                   className="text-lg md:text-xl lg:text-3xl font-bold text-[#00619F] lg:leading-[35px]"
                   data-aos="fade-up"
-                  data-aos-duration="3000"
+                  data-aos-duration="2000"
                 >
                   {data?.subTitle}
                 </p>
@@ -801,14 +801,14 @@ export default async function ServiceComponent({ params }: PageProps) {
                   <p
                     className="text-sm md:text-base text-[#585858] text-md xl:text-lg  font-[500]"
                     data-aos="fade-up"
-                    data-aos-duration="3000"
+                    data-aos-duration="2000"
                   >
                     {firstPart}
                   </p>
                   <p
                     className="text-sm md:text-base text-[#585858] text-md xl:text-lg  font-[500]"
                     data-aos="fade-up"
-                    data-aos-duration="3000"
+                    data-aos-duration="2000"
                   >
                     {secondPart}
                   </p>
@@ -825,7 +825,7 @@ export default async function ServiceComponent({ params }: PageProps) {
                bg-contact-background bg-clip-text
                font-bold p-2"
                 data-aos="fade-up"
-                data-aos-duration="3000"
+                data-aos-duration="2000"
               >
                 Our Offerings
               </h2>
@@ -837,7 +837,7 @@ export default async function ServiceComponent({ params }: PageProps) {
                   <div
                     key={idx}
                     data-aos="fade-up"
-                    data-aos-duration="3000"
+                    data-aos-duration="2000"
                     className={`group p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 ${
                       idx === 5 ? "bg-[#D4AF37]" : "bg-white"
                     }`}
@@ -863,7 +863,7 @@ export default async function ServiceComponent({ params }: PageProps) {
                 <h2
                   className="text-center text-3xl text-black lg:text-4xl xl:text-5xl  font-bold py-10"
                   data-aos="fade-up"
-                  data-aos-duration="3000"
+                  data-aos-duration="2000"
                 >
                   Business Benefits
                 </h2>
@@ -879,7 +879,7 @@ export default async function ServiceComponent({ params }: PageProps) {
                       idx === 3 ? "bg-[#D4AF37]" : "bg-white"
                     }`}
                     data-aos="fade-up"
-                    data-aos-duration="3000"
+                    data-aos-duration="2000"
                   >
                     <div className="flex justify-center">
                       <div className="w-16 h-16 flex-shrink-0">
@@ -910,7 +910,7 @@ export default async function ServiceComponent({ params }: PageProps) {
               <h2
                 className="text-center text-3xl text-black lg:text-4xl xl:text-5xl bg-contact-background bg-clip-text  font-bold"
                 data-aos="fade-up"
-                data-aos-duration="3000"
+                data-aos-duration="2000"
               >
                 Industry Use Cases
               </h2>
@@ -925,7 +925,7 @@ export default async function ServiceComponent({ params }: PageProps) {
                       idx === 5 ? "bg-[#D4AF37]" : "bg-white"
                     }`}
                     data-aos="fade-up"
-                    data-aos-duration="3000"
+                    data-aos-duration="2000"
                   >
                     <div className="flex justify-center">
                       <div className="w-16 h-16">

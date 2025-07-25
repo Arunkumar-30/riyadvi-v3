@@ -38,13 +38,13 @@ export default function FaqAccordion() {
       <h2
         className="text-center text-3xl sm:text-4xl font-bold text-gray-900 mb-8"
         data-aos="fade-up"
-        data-aos-duration="3000"
+        data-aos-duration="2000"
       >
         Frequently Asked <span className="text-[#D4AF37]">Questions</span>
       </h2>
       <div className="max-w-5xl mx-auto space-y-4">
         {faqData.map((item, idx) => (
-          <Disclosure key={idx} data-aos="fade-up" data-aos-duration="3000">
+          <Disclosure key={idx} data-aos="fade-up" data-aos-duration="2000">
             {({ open }) => (
               <div className="border border-gray-300 rounded-lg overflow-hidden">
                 <Disclosure.Button className="flex justify-between items-center w-full px-5 py-4 text-left  font-medium text-xl text-black  hover:bg-gray-50 focus:outline-none">

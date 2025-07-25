@@ -43,14 +43,14 @@ export default function BlogSection() {
           <h2
             className="text-3xl font-bold tracking-tight  text-black sm:text-4xl"
             data-aos="fade-up"
-            data-aos-duration="3000"
+            data-aos-duration="2000"
           >
             From the blog
           </h2>
           <p
             className="mt-2 text-lg leading-8 text-[#585858] text-md xl:text-lg  font-[500]"
             data-aos="fade-up"
-            data-aos-duration="3000"
+            data-aos-duration="2000"
           >
             Learn how to grow your business with our expert advice.
           </p>
@@ -64,7 +64,7 @@ export default function BlogSection() {
               key={index}
               className="block group"
               data-aos="fade-up"
-              data-aos-duration="3000"
+              data-aos-duration="2000"
             >
               <div className="flex flex-col md:flex-row gap-10 items-center md:items-start">
                 {/* Image */}
