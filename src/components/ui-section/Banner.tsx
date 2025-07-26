@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const BannerSlider = () => {
@@ -24,7 +25,10 @@ const BannerSlider = () => {
                 startups and businesses go digital the smart way.
               </p>
               <div className="flex justify-start sm:justify-start">
-                <button className="group rounded-full duration-500 text-white p-3 bg-[#D4AF37] w-[230px] flex items-center justify-center gap-4 text-sm border-none">
+                <Link
+                  href={"/contact-us"}
+                  className="group rounded-full duration-500 text-white p-3 bg-[#D4AF37] w-[230px] flex items-center justify-center gap-4 text-sm border-none"
+                >
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
@@ -37,7 +41,7 @@ const BannerSlider = () => {
                     <path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path>
                   </svg>
                   Book Free Consultation
-                </button>
+                </Link>
               </div>
             </div>
 

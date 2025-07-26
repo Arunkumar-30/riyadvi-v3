@@ -114,6 +114,9 @@
 // };
 // export default WhyChooseUsComponent;
 "use client";
+
+import Link from "next/link";
+
 const WhyChooseUs = () => {
   return (
     <>
@@ -145,8 +148,9 @@ const WhyChooseUs = () => {
               and sustainable growth for your business—making the journey as
               rewarding as the destination.
             </p>
-            <button
-              className="group duration-500 rounded-full text-[#fff] p-2 bg-[#D4AF37]  w-auto pr-8 flex items-center gap-4  text-[14px] border-none"
+            <Link
+              href={"/about"}
+              className="group duration-500 rounded-full text-[#fff] p-2 bg-[#D4AF37] w-40 flex items-center gap-4  text-[14px] border-none"
               data-discover="true"
               data-aos="fade-up"
               data-aos-duration="2000"
@@ -165,7 +169,7 @@ const WhyChooseUs = () => {
                 <path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path>
               </svg>
               Know More
-            </button>
+            </Link>
           </div>
 
           {/* Right Section */}

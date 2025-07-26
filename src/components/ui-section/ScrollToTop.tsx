@@ -28,7 +28,7 @@ export default function ScrollAndContactButtons() {
 
       {/* Call Button */}
       <a
-        href="tel:+1234567890"
+        href="tel:+91 8072487427"
         className="bg-green-600 text-white p-3 rounded-full shadow-lg hover:bg-green-700 transition"
         aria-label="Call us"
       >
@@ -37,7 +37,7 @@ export default function ScrollAndContactButtons() {
 
       {/* WhatsApp Button */}
       <a
-        href="https://wa.me/1234567890"
+        href="https://wa.me/+918072487427?text=Hello!"
         target="_blank"
         rel="noopener noreferrer"
         className="bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition"

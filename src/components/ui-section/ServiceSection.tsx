@@ -175,7 +175,8 @@ const ServiceComponent = () => {
             </div>
           </div>
           <div className="flex justify-center items-center mt-10 ">
-            <button
+            <Link
+              href="/service/web-development"
               className="group duration-500 rounded-full text-[#fff] p-2 bg-[#D4AF37]  w-auto pr-8 flex items-center gap-4  text-[14px] border-none"
               data-discover="true"
             >
@@ -193,7 +194,7 @@ const ServiceComponent = () => {
                 <path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path>
               </svg>
               Explore All Services
-            </button>
+            </Link>
           </div>
         </div>
       </div>

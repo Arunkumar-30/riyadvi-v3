@@ -45,25 +45,25 @@ const allServices = [
     ],
     benifits: [
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/web/benifit-1.gif",
         title: "Support and Maintenance",
         description:
           "We provide ongoing website support and maintenance services, keeping your site secure, and updated, and performing optimally for a seamless user experience.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/web/benifit-3.gif",
         title: "Scalable Business Growth",
         description:
           "Our scalable web solutions grow with your business, offering easy upgrades, feature integration, and improved performance to meet evolving demands.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/web/benifit-2.gif",
         title: "Improving Performance",
         description:
           "We optimize website speed, mobile responsiveness, and overall performance to ensure a fast, engaging user experience and better search rankings.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/web/benifit-4.gif",
         title: "Full-Scale Website Testing",
         description:
           "Comprehensive website testing, including security audits, cross-browser compatibility, and load testing, ensures your site is secure, bug-free, and performs flawlessly.",
@@ -71,37 +71,37 @@ const allServices = [
     ],
     industry: [
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/web/online-shopping.gif",
         title: "E-Commerce",
         description:
           "Develop fast, SEO-friendly online stores with secure payments, mobile optimization, and seamless navigation, enhancing user experience and increasing sales.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/web/health-checkup.gif",
         title: "Healthcare",
         description:
           "Build secure healthcare websites with patient portals, telemedicine, and HIPAA compliance, ensuring data protection and better patient engagement.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/web/bank.gif",
         title: "Finance & Banking",
         description:
           "Create trusted financial platforms with encrypted transactions, fraud detection, and seamless banking, improving security, compliance, and customer trust.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/web/online-lesson.gif",
         title: "Education",
         description:
           "Design interactive e-learning platforms with virtual classrooms, mobile access, and engaging content, making online education flexible and effective.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/web/houses.gif",
         title: "Real Estate",
         description:
           "Develop dynamic property listing websites with 3D tours, AI-driven search, and lead management, helping buyers and agents connect efficiently.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/web/solo-traveller.gif",
         title: "Hospitality & Travel",
         description:
           "Create SEO-optimized hotel booking sites with real-time availability, secure payments, and personalized experiences, improving guest satisfaction and bookings",
@@ -886,8 +886,8 @@ export default async function ServiceComponent({ params }: PageProps) {
                     <div className="flex justify-center">
                       <div className="w-16 h-16 flex-shrink-0">
                         <img
-                          alt="support"
-                          src="/assets/Custom-services-qrv_zKz7.gif"
+                          alt={data1.title}
+                          src={data1.imag}
                           className="h-full w-full"
                         />
                       </div>
@@ -932,8 +932,8 @@ export default async function ServiceComponent({ params }: PageProps) {
                     <div className="flex justify-center">
                       <div className="w-16 h-16">
                         <img
-                          alt="E-Commerce"
-                          src="/assets/ecommerce-D_nw2niD.gif"
+                          alt={data1.title}
+                          src={data1.imag}
                           className="h-full w-full"
                         />
                       </div>

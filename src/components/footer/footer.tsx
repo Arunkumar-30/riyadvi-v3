@@ -23,7 +23,8 @@ const FooterComponent = () => {
                 Started with Riyadvi Today!
               </p>
               <div className="flex flex-col md:flex-row justify-center gap-4 w-full mt-10">
-                <button
+                <Link
+                  href={"/contact-us"}
                   className="group rounded-full duration-500 text-[#fff] p-2 bg-[#D4AF37]  w-[230px] flex items-center gap-4  text-[14px] border-none"
                   data-discover="true"
                   data-aos="fade-up"
@@ -43,7 +44,7 @@ const FooterComponent = () => {
                     <path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path>
                   </svg>
                   Book Free Consultation
-                </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -63,17 +64,13 @@ const FooterComponent = () => {
             </p>
             <ul className="text-[#292929] flex gap-4 pt-4 pb-4">
               <li className="p-2 text-[18px]">
-                <Link
-                  href="https://x.com/AryuEnterprises"
-                  target="_blank"
-                  className="hover:text-[#0095D2]"
-                >
+                <Link href="/" target="_blank" className="hover:text-[#0095D2]">
                   <i className="fab fa-x-twitter"></i>
                 </Link>
               </li>
               <li className="p-2 text-[18px]">
                 <Link
-                  href="https://www.instagram.com/aryu_enterprises/"
+                  href="https://www.instagram.com/riyadvisoftwaretech/?next=%2F"
                   target="_blank"
                   className="hover:text-[#0095D2]"
                 >
@@ -82,7 +79,7 @@ const FooterComponent = () => {
               </li>
               <li className="p-2 text-[18px]">
                 <Link
-                  href="https://www.facebook.com/AryuEnterprisesPrivatelimited/"
+                  href="https://www.facebook.com/riyadvisoftwaretech"
                   target="_blank"
                   className="hover:text-[#0095D2]"
                 >
@@ -91,7 +88,7 @@ const FooterComponent = () => {
               </li>
               <li className="p-2 text-[18px]">
                 <Link
-                  href="https://in.linkedin.com/company/aryu-enterprises-private-limited?trk=similar-pages"
+                  href="https://www.linkedin.com/in/riyadvi-software-technologies-5405ab216/"
                   target="_blank"
                   className="hover:text-[#0095D2]"
                 >
@@ -105,14 +102,7 @@ const FooterComponent = () => {
             <h3 className="font-bold text-[18px] text-[#292929]">Business</h3>
             <ul className="text-[16px] text-[#292929]">
               <li className="my-4">
-                <Link href="https://aryutechnologies.com/" target="_blank">
-                  RiyaDvi Software Technologies
-                </Link>
-              </li>
-              <li className="my-4">
-                <Link href="https://aryu.agency/" target="_blank">
-                  Riyadvi Agency
-                </Link>
+                <Link href="/">RiyaDvi Software Technologies</Link>
               </li>
             </ul>
           </div>
@@ -124,18 +114,13 @@ const FooterComponent = () => {
                 <Link href="/">Home</Link>
               </li>
               <li className="my-4">
-                <Link href="/about-us">About Us</Link>
+                <Link href="/about">About Us</Link>
               </li>
               <li className="my-4">
                 <Link href="/contact-us">Contact Us</Link>
               </li>
               <li className="my-4">
-                <Link
-                  href="https://aryutechnologies.com/career-opportunities"
-                  target="_blank"
-                >
-                  Career
-                </Link>
+                <Link href="/career">Career</Link>
               </li>
             </ul>
           </div>
@@ -144,9 +129,7 @@ const FooterComponent = () => {
             <h3 className="font-bold text-[18px] text-[#292929]">Resources</h3>
             <ul className="text-[16px] text-[#292929]">
               <li className="my-4">
-                <Link href="https://blog.aryutechnologies.com/" target="_blank">
-                  Blog
-                </Link>
+                <Link href="/blogs">Blog</Link>
               </li>
             </ul>
           </div>
@@ -160,18 +143,18 @@ const FooterComponent = () => {
               <li>
                 <Link
                   className="flex items-center gap-2"
-                  href="tel:+91 9994715106"
+                  href="tel:+91 8072487427"
                 >
                   <span className="bg-white/20 backdrop-blur-lg border-white/20 rounded-full p-2">
                     <i className="fas fa-phone"></i>
                   </span>
-                  +91 9994715106
+                  +91 8072487427
                 </Link>
               </li>
               <li>
                 <Link
                   className="flex items-center gap-2"
-                  href="mailto:yuvaraj@aryuenterprises.com"
+                  href="mailto:info@riyadvisoftwaretechnologies.com"
                 >
                   <span className="bg-white/20 backdrop-blur-lg border-white/20 rounded-full p-2">
                     <i className="fas fa-envelope"></i>
@@ -185,18 +168,18 @@ const FooterComponent = () => {
               <li>
                 <Link
                   className="flex items-center gap-2"
-                  href="tel:+91 6380249209"
+                  href="tel:+91 8072487427"
                 >
                   <span className="bg-white/20 backdrop-blur-lg border-white/20 rounded-full p-2">
                     <i className="fas fa-phone"></i>
                   </span>
-                  +91 6380249209
+                  +91 8072487427
                 </Link>
               </li>
               <li>
                 <Link
                   className="flex items-center gap-2"
-                  href="mailto:hr@aryuenterprises.com"
+                  href="mailto:hr@riyadvisoftwaretechnologies.com"
                 >
                   <span className="bg-white/20 backdrop-blur-lg border-white/20 rounded-full p-2">
                     <i className="fas fa-envelope"></i>

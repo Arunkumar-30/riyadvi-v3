@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import HeadingComponent from "./Heading";
 
 // import { Swiper, SwiperSlide } from "swiper/react";
@@ -231,7 +232,8 @@ const CaseStudies = () => {
               </div>
             </div>
             <div className="flex justify-center items-center mt-10">
-              <button
+              <Link
+                href={"/our-works"}
                 className="group duration-500 rounded-full text-[#fff] p-2 bg-[#D4AF37]  w-[170px] flex items-center gap-4  text-[14px] border-none"
                 data-discover="true"
               >
@@ -249,7 +251,7 @@ const CaseStudies = () => {
                   <path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path>
                 </svg>
                 See Our Work
-              </button>
+              </Link>
             </div>
           </div>
         </div>
