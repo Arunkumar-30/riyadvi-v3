@@ -6,11 +6,11 @@ import Image from "next/image";
 const allServices = [
   {
     slug: "web-development",
-    title: "Web Developement",
+    title: "Web Development Solution",
     subTitle: "Building High-Performance Websites With Custom Solutions",
-    mainImag: "/home/about-1.jpg",
+    mainImag: "/home/website-development.jpg",
     titlePara:
-      "A strong online presence starts with expert web development. We create fast, secure, and scalable websites that meet your business needs.Our web development services in Chennai, India, include custom website development, e-commerce solutions, CMS integration, and responsive web design to ensure the best user experience. Our clients trust us to deliver innovative solutions that help them succeed in a competitive market.",
+      "A strong online presence starts with expert web development. We create fast, secure, and scalable websites that meet your business needs. Our web development services in Chennai, India, include custom website development, e-commerce solutions, CMS integration, and responsive web design to ensure the best user experience.Our clients trust us to deliver innovative solutions that help them succeed in a competitive market.",
     offering: [
       {
         title: "Custom Website Development",
@@ -18,29 +18,29 @@ const allServices = [
           "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
       },
       {
-        title: "Custom Website Development",
+        title: "E-Commerce Development",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Create an online store with secure payments, mobile-friendly design, and smooth navigation for a hassle-free shopping experience and increased sales",
       },
       {
-        title: "Custom Website Development",
+        title: "CMS Application Development",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Manage your website easily with WordPress, Shopify, or Drupal. We create secure, SEO-optimized CMS solutions for effortless updates and better performance.",
       },
       {
-        title: "Custom Website Development",
+        title: "UI/UX Design and Development",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Attractive and easy-to-use website designs that keep visitors engaged, improve brand trust, and turn more users into customers.",
       },
       {
-        title: "Custom Website Development",
+        title: "SEO & Performance Optimization",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Improve website speed, SEO ranking, and mobile responsiveness to attract more visitors and boost your online presence",
       },
       {
-        title: "Custom Website Development",
+        title: "Web Application Developmentt",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Get a high-performing web app with fast loading speed and user-friendly design, improving engagement and streamlining business processes.",
       },
     ],
     benifits: [
@@ -48,623 +48,625 @@ const allServices = [
         imag: "/home/about-1.jpg",
         title: "Support and Maintenance",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "We provide ongoing website support and maintenance services, keeping your site secure, and updated, and performing optimally for a seamless user experience.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Scalable Business Growth",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Our scalable web solutions grow with your business, offering easy upgrades, feature integration, and improved performance to meet evolving demands.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Improving Performance",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "We optimize website speed, mobile responsiveness, and overall performance to ensure a fast, engaging user experience and better search rankings.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Full-Scale Website Testing",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Comprehensive website testing, including security audits, cross-browser compatibility, and load testing, ensures your site is secure, bug-free, and performs flawlessly.",
       },
     ],
     industry: [
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "E-Commerce",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Develop fast, SEO-friendly online stores with secure payments, mobile optimization, and seamless navigation, enhancing user experience and increasing sales.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Healthcare",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Build secure healthcare websites with patient portals, telemedicine, and HIPAA compliance, ensuring data protection and better patient engagement.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Finance & Banking",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Create trusted financial platforms with encrypted transactions, fraud detection, and seamless banking, improving security, compliance, and customer trust.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Education",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Design interactive e-learning platforms with virtual classrooms, mobile access, and engaging content, making online education flexible and effective.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Real Estate",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Develop dynamic property listing websites with 3D tours, AI-driven search, and lead management, helping buyers and agents connect efficiently.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Hospitality & Travel",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Create SEO-optimized hotel booking sites with real-time availability, secure payments, and personalized experiences, improving guest satisfaction and bookings",
       },
     ],
   },
   {
     slug: "app-development",
-    title: "App Developement",
-    subTitle: "Building High-Performance Websites With Custom Solutions",
-    mainImag: "/home/about-1.jpg",
+    title: "Choosing the Right Platform for Your Mobile App",
+    subTitle: "AI and IoT in Smart Mobile Applications",
+    mainImag: "/home/moblie-development.jpg",
     titlePara:
-      "A strong online presence starts with expert web development. We create fast, secure, and scalable websites that meet your business needs.Our web development services in Chennai, India, include custom website development, e-commerce solutions, CMS integration, and responsive web design to ensure the best user experience. Our clients trust us to deliver innovative solutions that help them succeed in a competitive market.",
+      "Our Mobile Application Services in Chennai, India, help businesses develop high-performance, secure, and scalable Android, iOS, and cross-platform apps. We delivered an MVP within four weeks, ensuring a fast go-to-market strategy. A successful mobile app strategy includes defining clear objectives, understanding the target audience, selecting the right technology, prioritizing user experience, and implementing a strong development, testing, and launch process.",
     offering: [
       {
-        title: "Custom Website Development",
+        title: "Custom App Development",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Build powerful mobile apps tailored to business needs with seamless functionality.",
       },
       {
-        title: "Custom Website Development",
+        title: "iOS & Android Apps",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Develop high-performance applications for both iOS and Android platforms effortlessly.",
       },
       {
-        title: "Custom Website Development",
+        title: "UI/UX Design & Testingt",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Craft user-friendly designs ensuring smooth navigation and optimal user experience.",
       },
       {
-        title: "Custom Website Development",
+        title: "App Maintenance & Support",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Regular updates and fixes for uninterrupted mobile app performance.",
       },
       {
-        title: "Custom Website Development",
+        title: "Enterprise Mobility Solutions",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Streamline business operations with scalable and secure mobile applications.",
       },
       {
-        title: "Custom Website Development",
+        title: "Cross-Platform Development",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Create efficient apps that work seamlessly across multiple platforms and devices.",
       },
     ],
     benifits: [
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Higher Revenue Growth",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "A well-optimized mobile app development strategy increases conversions, boosts sales, and enhances business profitability.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Operational Efficiency",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Automating processes with enterprise mobility solutions reduces costs, minimizes errors, and improves overall productivity.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Stronger Customer Relationships",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "A seamless UI/UX design enhances user engagement, builds trust, and increases customer retention.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Future-Ready Scalability",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Cut unnecessary costs with automation, cloud optimization, and better resource management, making your business operations more efficient and profitable.",
       },
     ],
     industry: [
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Healthcare Solutions",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Develop secure telemedicine apps, EHR systems, and patient portals to enhance healthcare accessibility and streamline medical workflows efficiently.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Finance & Banking",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Build robust fintech applications for secure transactions, risk management, and seamless digital banking experiences to improve customer trust.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "E-commerce & Retail",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Create user-friendly shopping apps with AI-driven recommendations, secure payments, and inventory management for better customer engagement.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Education & E-Learning",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Develop interactive e-learning platforms, virtual classrooms, and AI-driven assessments for a seamless digital education experience.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Manufacturing & Logistics",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Implement IoT-powered mobile apps for real-time tracking, automation, and supply chain management to enhance operational efficiency.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Travel & Hospitality",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Design intuitive booking apps with AI chatbots, personalized offers, and seamless payment integration for a superior travel experience.",
       },
     ],
   },
   {
     slug: "digital-marketing",
-    title: "Digital Marketing",
-    subTitle: "Building High-Performance Websites With Custom Solutions",
-    mainImag: "/home/about-1.jpg",
+    title: "Your One-Stop Solution for Digital Marketing Success",
+    subTitle: "Increase Brand Awareness with Digital Marketing Strategies",
+    mainImag: "/home/digital-marketing-1.jpg",
     titlePara:
-      "A strong online presence starts with expert web development. We create fast, secure, and scalable websites that meet your business needs.Our web development services in Chennai, India, include custom website development, e-commerce solutions, CMS integration, and responsive web design to ensure the best user experience. Our clients trust us to deliver innovative solutions that help them succeed in a competitive market.",
+      "Our Digital Marketing Services in Chennai, India help businesses grow by increasing brand visibility, driving organic traffic, and boosting sales. We specialize in SEO, PPC, social media, content, and email marketing to ensure online success.We analyze client goals, conduct competitor research, and develop customized strategies. To maximize our reach, we also engage with real industry teams on social media.",
     offering: [
       {
-        title: "Custom Website Development",
+        title: "SEO Services",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Boost Google rankings, drive organic traffic, and enhance brand visibility with expert SEO optimization strategies.",
       },
       {
-        title: "Custom Website Development",
+        title: "PPC Advertising",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Maximize ROI with Google Ads, Facebook Ads, and high-converting paid advertising campaigns for lead generation.",
       },
       {
-        title: "Custom Website Development",
+        title: "Social Media Marketing",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Increase brand awareness, engage audiences, and generate social media leads on Instagram, Facebook, and LinkedIn.",
       },
       {
-        title: "Custom Website Development",
+        title: "Content Marketing",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Create SEO-optimized blogs, website content, and landing pages to attract, educate, and convert potential customers.",
       },
       {
-        title: "Custom Website Development",
+        title: "Email Marketing",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Nurture leads and retain customers with personalized email automation for better customer engagement and conversions.",
       },
       {
-        title: "Custom Website Development",
+        title: "E-commerce Marketing",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Drive online sales using eCommerce SEO, PPC ads, and conversion optimization for Shopify, WooCommerce, and Magento.",
       },
     ],
     benifits: [
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Increased Online Visibility",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Boost Google rankings, attract organic traffic, and strengthen brand presence through SEO, PPC, and social media marketing.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Higher Conversion Rates",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Optimize landing pages, ad campaigns, and SEO to convert website visitors into paying customers, increasing sales and business growth.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Targeted Audience Reach",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Use data-driven marketing, PPC ads, and social media to reach high-intent customers, generating more leads, engagement, and conversions.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Cost-Effective Marketing",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Maximize ROI with SEO, content marketing, and automation, reducing ad costs while driving consistent revenue and business expansion.",
       },
     ],
     industry: [
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "E-commerce",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Increase sales with SEO, PPC, and social media marketing, improving product visibility, customer engagement, and conversions for Shopify, WooCommerce, and Magento stores.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Ed-Tech",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Drive student enrollments using SEO, content marketing, and ads, enhancing course visibility, lead generation, and engagement for e-learning platforms, coaching centers, and institutions.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Business Services",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Generate quality leads with SEO, PPC, and LinkedIn marketing, boosting brand credibility, B2B outreach, and customer acquisition for consulting and service-based businesses.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Travel Agencies",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Attract travelers with Google Ads, SEO, and social media, increasing bookings, inquiries, and engagement for tour operators, hotels, and travel service providers.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Manufacturing",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Expand global reach through SEO, PPC, and digital marketing, optimizing lead generation, product awareness, and visibility for industrial and manufacturing businesses.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Healthcare",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "mprove patient outreach with SEO, PPC, and content marketing, increasing clinic visibility, appointment bookings, and trust for hospitals, clinics, and healthcare providers.",
       },
     ],
   },
   {
     slug: "ar-vr",
-    title: "AR & VR",
-    subTitle: "Building High-Performance Websites With Custom Solutions",
-    mainImag: "/home/about-1.jpg",
+    title: "VR/AR development services",
+    subTitle: "Extensible and Future-Oriented VR/AR Offerings",
+    mainImag: "/home/ar-vr.avif",
     titlePara:
-      "A strong online presence starts with expert web development. We create fast, secure, and scalable websites that meet your business needs.Our web development services in Chennai, India, include custom website development, e-commerce solutions, CMS integration, and responsive web design to ensure the best user experience. Our clients trust us to deliver innovative solutions that help them succeed in a competitive market.",
+      "We are a VR/AR development company, creating virtual and augmented reality solutions that make business operations more engaging. By applying game mechanics and design, we develop AR applications, VR simulations, and 3D solutions to maintain audience interest and efficiency. With expertise in training, education, sales, and gaming, we offer VR/AR development services in Chennai, India, helping businesses accelerate learning and retain customers.",
     offering: [
       {
-        title: "Custom Website Development",
+        title: "Custom VR Solutions",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Very good VR experiences used in the process of training, education, and entertainment.",
       },
       {
-        title: "Custom Website Development",
+        title: "Augmented Reality Apps",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "They add AR overlays to the shopping and marketing sphere for higher engagement.",
       },
       {
-        title: "Custom Website Development",
+        title: "3D Visualization",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "You can make a lot of things with 3D models for architecture, product design, and simulation with precision and realism.",
       },
       {
-        title: "Custom Website Development",
+        title: "VR/AR for Training",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "VR/AR technology has transformed learning by making use of interactive VR/AR modules and simulating real-life situations naturally.",
       },
       {
-        title: "Custom Website Development",
+        title: "Enterprise AR/VR",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "AR/VR is used to aid work process automation or decision-making through the use of extremely complicated corporate solutions.",
       },
       {
-        title: "Custom Website Development",
+        title: "VR/AR Game Development",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Realistic graphics and smooth gameplay are the key factors in producing engaging VR/AR games.",
       },
     ],
     benifits: [
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Increased interaction",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "VR/AR not only increases the user's retention and brand recall but also customer experience.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Efficient Training",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Hands-on training using AR/VR technology considerably brings a reduction in mistakes, costs, and time spent learning.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Better Decision Making",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Businesses can make quicker decisions by using real-time 3D visualization, which will, in turn, enhance their accuracy and efficiency.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Competitive Market",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "The use of AR/VR is synonymous with innovation, productivity, and customer satisfaction",
       },
     ],
     industry: [
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Retail",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Using Virtual Reality and Augmented Reality for virtual fitting and interactive shopping drives customer involvement and sales growth.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Manufacturing",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "AR has assisted in predicting assembly, VR training, and 3D simulations, thus removing errors and costs in the production process.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Real Estate",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "VR property tours and AR visualizations are strategies used by clients to explore properties from afar, hence making an informed decision.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Healthcare",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "VR/AR is beneficial in medical training, surgery simulations, and patient education, leading to accuracy and treatment results.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Education",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "VR classrooms and AR content are an added advantage for students' learning, engagement, and retention.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Entertainment",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "AR/VR is the foundation of vibrant stories, VR-compatible games, and an array of games, creating a virtual world.",
       },
     ],
   },
   {
     slug: "3d-modeling",
-    title: "3D Modelling",
-    subTitle: "Building High-Performance Websites With Custom Solutions",
-    mainImag: "/home/about-1.jpg",
+    title: "3D Modeling Services",
+    subTitle: "Precision-Driven and Realistic 3D Modeling Solutions",
+    mainImag: "/home/3d-modeling.jpg",
     titlePara:
-      "A strong online presence starts with expert web development. We create fast, secure, and scalable websites that meet your business needs.Our web development services in Chennai, India, include custom website development, e-commerce solutions, CMS integration, and responsive web design to ensure the best user experience. Our clients trust us to deliver innovative solutions that help them succeed in a competitive market.",
+      "We are a 3D modeling company that creates visually accurate and immersive 3D assets for a range of industries. Our services include architectural modeling, product visualization, simulation assets, and character modeling. Whether it’s for marketing, gaming, real estate, or engineering, our 3D modeling solutions enhance realism, improve engagement, and accelerate project delivery. We serve clients in Chennai, India and beyond.",
     offering: [
       {
-        title: "Custom Website Development",
+        title: "Architectural 3D Modeling",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "High-quality 3D models for real estate, interior design, and architectural visualizations that bring spaces to life.",
       },
       {
-        title: "Custom Website Development",
+        title: "Product Visualization",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Detailed 3D product models used for marketing, e-commerce, and prototype validation before manufacturing.",
       },
       {
-        title: "Custom Website Development",
+        title: "Character & Asset Modeling",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Custom 3D character and game asset modeling for use in games, animations, and virtual environments.",
       },
       {
-        title: "Custom Website Development",
+        title: "Industrial Modeling",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Precise 3D modeling of machines, parts, and equipment used in engineering and industrial design workflows.",
       },
       {
-        title: "Custom Website Development",
+        title: "3D Animation Support",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "3D models optimized for animation workflows including rigging and morphing for film, media, and simulations.",
       },
       {
-        title: "Custom Website Development",
+        title: "Simulation-Ready Models",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Clean, physics-ready models tailored for simulations in defense, healthcare, automotive, and aerospace industries.",
       },
     ],
     benifits: [
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Enhanced Visual Communication",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Convey ideas and designs more clearly using photorealistic 3D models, making it easier for clients and stakeholders to understand your vision.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Time & Cost Efficiency",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "3D models help identify design flaws early and reduce the need for physical prototypes, saving both time and cost.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "High Engagement",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Interactive and visually rich 3D content keeps customers engaged, whether used in sales, education, or marketing.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Customizable & Scalable",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Our models are built to scale and can be reused across platforms, from web to AR/VR and simulations.",
       },
     ],
     industry: [
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Real Estate",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Realistic 3D models of buildings, interiors, and landscapes for walkthroughs, marketing, and architectural planning.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Manufacturing",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "3D representations of machines and tools aid in prototyping, production planning, and maintenance training.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "E-Commerce",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Photorealistic 3D product models enhance the online shopping experience and reduce product return rates.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Gaming",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Custom characters, environments, and props designed for use in real-time engines and cinematic cut-scenes.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Healthcare",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "3D models for medical devices, anatomical structures, and surgical planning support training and diagnostics.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Advertising & Media",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Eye-catching 3D visuals and animations used in commercials, product launches, and promotional content.",
       },
     ],
   },
   {
     slug: "game-development",
     title: "Game Development",
-    subTitle: "Building High-Performance Websites With Custom Solutions",
-    mainImag: "/home/about-1.jpg",
+    subTitle:
+      "Immersive, Scalable, and High-Performance Game Development Solutions",
+    mainImag: "/home/game-development.jpg",
     titlePara:
-      "A strong online presence starts with expert web development. We create fast, secure, and scalable websites that meet your business needs.Our web development services in Chennai, India, include custom website development, e-commerce solutions, CMS integration, and responsive web design to ensure the best user experience. Our clients trust us to deliver innovative solutions that help them succeed in a competitive market.",
+      "We are a professional game development company offering end-to-end gaming solutions for mobile, desktop, web, and consoles. Our team specializes in designing engaging gameplay, stunning visuals, and seamless mechanics across various genres. From concept to launch, we deliver immersive experiences tailored to your audience. Based in Chennai, India, we help businesses and brands bring their gaming visions to life.",
     offering: [
       {
-        title: "Custom Website Development",
+        title: "Mobile Game Development",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "We create captivating and optimized mobile games for iOS and Android with smooth performance and rich visuals.",
       },
       {
-        title: "Custom Website Development",
+        title: "PC & Console Game Development",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "End-to-end development for PC and console platforms including game mechanics, 3D environments, and controller support.",
       },
       {
-        title: "Custom Website Development",
+        title: "2D & 3D Game Design",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "From stylized 2D games to realistic 3D experiences, we design visually appealing games with dynamic gameplay.",
       },
       {
-        title: "Custom Website Development",
+        title: "AR/VR Game Development",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "We build immersive augmented and virtual reality games for training, education, and entertainment experiences.",
       },
       {
-        title: "Custom Website Development",
+        title: "Multiplayer Game Development",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Develop engaging multiplayer games with real-time synchronization, lobbies, and matchmaking systems.",
       },
       {
-        title: "Custom Website Development",
+        title: "HTML5 & Web-Based Games",
         description:
-          "We build fast, secure, and SEO-friendly websites that look great, load quickly, and help businesses grow with better performance and user experience.",
+          "Lightweight, responsive games accessible through browsers—ideal for marketing, e-learning, and casual gaming.",
       },
     ],
     benifits: [
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Engaging User Experience",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "We prioritize immersive gameplay and storytelling to keep users engaged and coming back for more.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Cross-Platform Compatibility",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Our games are developed to run smoothly across multiple platforms like mobile, desktop, console, and web.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Scalable Architecture",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Built with scalable architecture to accommodate high traffic and expand to new features or player bases.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Post-Launch Support",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "We provide regular updates, bug fixes, and new content integration for a sustained game lifecycle.",
       },
     ],
     industry: [
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Entertainment",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Developing story-driven, action, adventure, and casual games for pure entertainment and fun.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Education",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Educational games that make learning interactive, fun, and effective across age groups and subjects.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Healthcare",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Therapeutic and training games for healthcare, aiding in rehabilitation, awareness, and cognitive training.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Marketing",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Advergames and branded interactive experiences that increase engagement and brand recall.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Training & Simulation",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "Realistic simulation games used for employee training, defense, aviation, and industrial learning.",
       },
       {
         imag: "/home/about-1.jpg",
-        title: "Support and Maintenance",
+        title: "Sports & eSports",
         description:
-          "We provide ongoing website support and maintenance services, keeping your site secure, updated, and performing optimally for a seamless user experience.",
+          "High-performance sports games with real-time multiplayer features and tournament support.",
       },
     ],
   },
+
   {
     slug: "ui-ux-design",
     title: "UI/UX Design",
     subTitle: "Crafting Intuitive and Engaging Digital Experiences",
-    mainImag: "/home/uiux-1.jpg",
+    mainImag: "/home/uiux-design.jpg",
     titlePara:
-      "Exceptional design is at the heart of every successful digital product. Our UI/UX design services focus on creating visually appealing, user-friendly, and conversion-driven interfaces. From wireframing to high-fidelity prototypes, we ensure every step enhances the user's journey and meets your business goals. Partner with us to bring creativity and functionality together in every pixel.",
+      "Exceptional design is at the heart of every successful digital product. Our UI/UX design services focus on creating visually appealing, user-friendly, and conversion-oriented interfaces. From wireframing to high-fidelity prototypes, we ensure every step enhances the user journey and aligns with your business goals. Partner with us to merge creativity and usability into every pixel.",
     offering: [
       {
         title: "User Research & Persona Building",
         description:
-          "We conduct in-depth research to understand user behavior and craft personas that guide effective design decisions aligned with real user needs.",
+          "We conduct deep user research and create personas that guide informed design decisions based on real user needs and behaviors.",
       },
       {
         title: "Wireframing & Prototyping",
         description:
-          "We build low and high-fidelity wireframes and interactive prototypes to validate functionality, user flows, and structure before development begins.",
+          "We craft low- and high-fidelity wireframes and interactive prototypes to validate concepts, user flows, and layout before development.",
       },
       {
         title: "UI Design",
         description:
-          "Our design team creates pixel-perfect, responsive, and visually stunning interfaces that reflect your brand and enhance usability across devices.",
+          "Our team creates visually consistent, responsive, and brand-aligned interfaces that offer seamless experiences across all devices.",
       },
       {
         title: "UX Design",
         description:
-          "We optimize user journeys by simplifying complex workflows, ensuring seamless navigation, and focusing on task efficiency and user satisfaction.",
+          "We design intuitive user journeys by streamlining workflows, reducing friction, and ensuring accessibility and usability.",
       },
       {
         title: "Mobile App Design",
         description:
-          "We create responsive and intuitive mobile interfaces tailored for both iOS and Android platforms to provide a consistent and engaging experience.",
+          "We deliver clean, intuitive mobile UI/UX designs for iOS and Android that enhance user retention and experience.",
       },
       {
-        title: "Design System Creation",
+        title: "Design Systems & Style Guides",
         description:
-          "We build reusable design systems and component libraries to ensure consistency, scalability, and faster product iterations across your platforms.",
+          "We develop reusable design systems and style guides to ensure consistency, scalability, and faster product development.",
       },
     ],
     benifits: [
@@ -672,25 +674,25 @@ const allServices = [
         imag: "/home/uiux-2.jpg",
         title: "Improved User Engagement",
         description:
-          "Intuitive and aesthetic interfaces enhance user satisfaction, increase interaction rates, and encourage longer engagement with your product.",
+          "Visually compelling and user-centric designs increase retention, usability, and interaction across platforms.",
       },
       {
         imag: "/home/uiux-2.jpg",
         title: "Higher Conversion Rates",
         description:
-          "Optimized design funnels and user flows lead to improved conversion metrics and increased ROI on your digital platforms.",
+          "Well-structured interfaces and optimized user flows lead to more sign-ups, purchases, and user actions.",
       },
       {
         imag: "/home/uiux-2.jpg",
-        title: "Brand Consistency",
+        title: "Stronger Brand Identity",
         description:
-          "Unified visual language and design elements strengthen your brand identity and create a professional, trustworthy impression.",
+          "Consistent design language reinforces brand recognition and builds trust with your audience.",
       },
       {
         imag: "/home/uiux-2.jpg",
-        title: "Faster Development",
+        title: "Faster Time-to-Market",
         description:
-          "Well-structured UI kits and design systems reduce developer guesswork and speed up the product development lifecycle.",
+          "Design systems and reusable components help accelerate development and reduce costly design changes later.",
       },
     ],
     industry: [
@@ -698,37 +700,37 @@ const allServices = [
         imag: "/home/uiux-3.jpg",
         title: "E-commerce",
         description:
-          "Designing seamless product browsing, filtering, and checkout experiences to boost online sales and customer satisfaction.",
+          "We design streamlined shopping experiences that reduce friction, boost conversions, and drive customer loyalty.",
       },
       {
         imag: "/home/uiux-3.jpg",
         title: "Healthcare",
         description:
-          "Creating user-friendly dashboards, appointment systems, and telehealth interfaces that prioritize clarity and accessibility.",
+          "We create accessible, user-friendly medical dashboards, appointment booking systems, and telemedicine platforms.",
       },
       {
         imag: "/home/uiux-3.jpg",
         title: "Education",
         description:
-          "Designing engaging, interactive platforms for e-learning and student management with intuitive content delivery.",
+          "Designing intuitive e-learning platforms and content delivery systems that improve engagement and student outcomes.",
       },
       {
         imag: "/home/uiux-3.jpg",
         title: "Finance",
         description:
-          "Building secure and visually clear user experiences for online banking, investment, and budgeting tools.",
+          "We design secure, easy-to-navigate interfaces for banking apps, financial dashboards, and investment tools.",
       },
       {
         imag: "/home/uiux-3.jpg",
         title: "Real Estate",
         description:
-          "Creating intuitive search interfaces, property detail pages, and lead generation flows for real estate platforms.",
+          "Intuitive property listing layouts and search experiences that guide users to informed decisions quickly.",
       },
       {
         imag: "/home/uiux-3.jpg",
         title: "Entertainment",
         description:
-          "Designing immersive and interactive UI experiences for music, video streaming, and gaming platforms.",
+          "Crafting immersive and dynamic UIs for media streaming, content platforms, and gaming applications.",
       },
     ],
   },

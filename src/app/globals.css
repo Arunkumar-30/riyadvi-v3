@@ -99,53 +99,44 @@ html{
       
 }
 
-.line-animation::before {
+
+/* Drop animation keyframes */
+@keyframes drop {
+  to {
+    top: calc(100% - 95px);
+    opacity: 1;
+  }
+}
+@keyframes drop1 {
+  to {
+    top: calc(100% - 75px);
+    opacity: 1;
+  }
+}
+
+/* Pseudo-element styles */
+.black_red::after {
   content: "";
-  width: 10px;
-  height: 100px;
-  background: red url(../../public/home/line.jpeg) no-repeat fixed;
   position: absolute;
   display: inline-block;
+  width: 10px;
+  height: 100px;
+  background: red url('/line.jpeg') no-repeat fixed;
   top: -300px;
   right: calc(100% - 17%);
   z-index: 9;
-  animation: drop 1.5s ease forwards;
-  animation-iteration-count: 1;
+  opacity: 0;
 }
 
-/* Drop animation */
-@keyframes drop {
-  from {
-    top: -300px;
-    opacity: 0;
-  }
-  to {
-    top: 450px; /* Adjust this to the final vertical position you want */
-    opacity: 1;
-  }
-}
-.line-animation-1::before {
-  content: "";
-  width: 10px;
-  height: 100px;
-  background: gold url(../../public/home/line.jpeg) no-repeat fixed;
-  position: absolute;
-  display: inline-block;
-  top: 500px;
-  right: calc(100% - 17%);
-  z-index: 9;
-  animation: drop 1.5s ease forwards;
-  animation-iteration-count: 1;
+.big_l.black_red::after {
+  height: 190px;
+  right: calc(100% - 8%);
 }
 
-/* Drop animation */
-@keyframes drop {
-  from {
-    top: -300px;
-    opacity: 0;
-  }
-  to {
-    top: 450px; /* Adjust this to the final vertical position you want */
-    opacity: 1;
-  }
+/* Triggered classes */
+.animate-drop::after {
+  animation: drop 1.5s ease forwards;
+}
+.animate-drop1::after {
+  animation: drop1 1.5s ease forwards;
 }

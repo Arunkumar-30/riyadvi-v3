@@ -7,10 +7,8 @@ const About = () => {
       <div>
         <CommonBannerComponent title="About Us" />
       </div>
-
-      {/* Meet the Founder Section */}
-
-      <div className="bg-[#fff] py-6">
+      {/* Meet the Founder Section */}{" "}
+      <div className="bg-[#fff] py-6 black_red big_l">
         <div className="max-w-7xl mx-auto px-4 max-md:px-6 flex flex-col-reverse md:flex-row items-center justify-between gap-y-6 py-16">
           {/* Text Content */}
           <div className="md:w-[50%] flex flex-col justify-center mt-8 md:mt-0">
@@ -280,7 +278,6 @@ const About = () => {
           />
         </div>
       </div>
-
       {/* <div className="pt-18 max-w-7xl mx-auto">
         <h2 className="text-[#161C52] text-[44px] max-md:text-[28px] font-semibold md:leading-[3rem]">
           Legacy of Innovation
@@ -349,7 +346,6 @@ const About = () => {
           </div>
         </div>
       </div> */}
-
       {/* 
       <div className="w-full flex justify-center">
         <div className="w-[90%] lg:w-[80%]">
