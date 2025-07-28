@@ -1,14 +1,11 @@
 import type { Metadata } from "next";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-
 import "./globals.css";
 import NavbarComponent from "@/components/navbar/Navbar";
-import "swiper/css";
-import "swiper/css/pagination";
 import FooterComponent from "@/components/footer/footer";
-
 import ScrollAndContactButtons from "@/components/ui-section/ScrollToTop";
 import AOSProvider from "@/components/AOSProvider";
+import ClientWrapper from "@/components/ui-section/ClientWrapper"; // 👈 custom wrapper
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -22,11 +19,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased`}>
+      <body className="antialiased">
         <NavbarComponent />
         <AOSProvider />
-        {children}
-
+        <ClientWrapper>
+          {" "}
+          {/* 👈 This includes Loader */}
+          {children}
+        </ClientWrapper>
         <FooterComponent />
         <ScrollAndContactButtons />
       </body>

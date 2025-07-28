@@ -17,7 +17,7 @@ const About = () => {
               data-aos="fade-up"
               data-aos-duration="2000"
             >
-              About
+              About Riyadvi
             </h2>
             <p
               className="text-[#585858] text-md xl:text-lg  font-[500] mt-6 leading-relaxed"
