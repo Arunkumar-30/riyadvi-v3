@@ -149,25 +149,25 @@ const allServices = [
     ],
     benifits: [
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/app/revenue-growth.gif",
         title: "Higher Revenue Growth",
         description:
           "A well-optimized mobile app development strategy increases conversions, boosts sales, and enhances business profitability.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/app/efficiency.gif",
         title: "Operational Efficiency",
         description:
           "Automating processes with enterprise mobility solutions reduces costs, minimizes errors, and improves overall productivity.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/app/relationship.gif",
         title: "Stronger Customer Relationships",
         description:
           "A seamless UI/UX design enhances user engagement, builds trust, and increases customer retention.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/app/scalability.gif",
         title: "Future-Ready Scalability",
         description:
           "Cut unnecessary costs with automation, cloud optimization, and better resource management, making your business operations more efficient and profitable.",
@@ -175,37 +175,37 @@ const allServices = [
     ],
     industry: [
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/app/international-nurses-day.gif",
         title: "Healthcare Solutions",
         description:
           "Develop secure telemedicine apps, EHR systems, and patient portals to enhance healthcare accessibility and streamline medical workflows efficiently.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/app/financing.gif",
         title: "Finance & Banking",
         description:
           "Build robust fintech applications for secure transactions, risk management, and seamless digital banking experiences to improve customer trust.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/app/laptop.gif",
         title: "E-commerce & Retail",
         description:
           "Create user-friendly shopping apps with AI-driven recommendations, secure payments, and inventory management for better customer engagement.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/app/online-learning.gif",
         title: "Education & E-Learning",
         description:
           "Develop interactive e-learning platforms, virtual classrooms, and AI-driven assessments for a seamless digital education experience.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/app/manufacture.gif",
         title: "Manufacturing & Logistics",
         description:
           "Implement IoT-powered mobile apps for real-time tracking, automation, and supply chain management to enhance operational efficiency.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/app/schedule.gif",
         title: "Travel & Hospitality",
         description:
           "Design intuitive booking apps with AI chatbots, personalized offers, and seamless payment integration for a superior travel experience.",
@@ -253,25 +253,25 @@ const allServices = [
     ],
     benifits: [
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/digital/profit-growth.gif",
         title: "Increased Online Visibility",
         description:
           "Boost Google rankings, attract organic traffic, and strengthen brand presence through SEO, PPC, and social media marketing.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/digital/conversion-rate.gif",
         title: "Higher Conversion Rates",
         description:
           "Optimize landing pages, ad campaigns, and SEO to convert website visitors into paying customers, increasing sales and business growth.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/digital/evolution.gif",
         title: "Targeted Audience Reach",
         description:
           "Use data-driven marketing, PPC ads, and social media to reach high-intent customers, generating more leads, engagement, and conversions.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/digital/accounting.gif",
         title: "Cost-Effective Marketing",
         description:
           "Maximize ROI with SEO, content marketing, and automation, reducing ad costs while driving consistent revenue and business expansion.",
@@ -279,37 +279,37 @@ const allServices = [
     ],
     industry: [
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/digital/global-marketing.gif",
         title: "E-commerce",
         description:
           "Increase sales with SEO, PPC, and social media marketing, improving product visibility, customer engagement, and conversions for Shopify, WooCommerce, and Magento stores.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/digital/settings.gif",
         title: "Ed-Tech",
         description:
           "Drive student enrollments using SEO, content marketing, and ads, enhancing course visibility, lead generation, and engagement for e-learning platforms, coaching centers, and institutions.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/digital/insurance-protection.gif",
         title: "Business Services",
         description:
           "Generate quality leads with SEO, PPC, and LinkedIn marketing, boosting brand credibility, B2B outreach, and customer acquisition for consulting and service-based businesses.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/digital/travel-agency.gif",
         title: "Travel Agencies",
         description:
           "Attract travelers with Google Ads, SEO, and social media, increasing bookings, inquiries, and engagement for tour operators, hotels, and travel service providers.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/digital/emerging-industries.gif",
         title: "Manufacturing",
         description:
           "Expand global reach through SEO, PPC, and digital marketing, optimizing lead generation, product awareness, and visibility for industrial and manufacturing businesses.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/digital/world-health-day.gif",
         title: "Healthcare",
         description:
           "mprove patient outreach with SEO, PPC, and content marketing, increasing clinic visibility, appointment bookings, and trust for hospitals, clinics, and healthcare providers.",
@@ -357,25 +357,25 @@ const allServices = [
     ],
     benifits: [
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/arvr/run.gif",
         title: "Increased interaction",
         description:
           "VR/AR not only increases the user's retention and brand recall but also customer experience.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/arvr/training.gif",
         title: "Efficient Training",
         description:
           "Hands-on training using AR/VR technology considerably brings a reduction in mistakes, costs, and time spent learning.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/arvr/quiz.gif",
         title: "Better Decision Making",
         description:
           "Businesses can make quicker decisions by using real-time 3D visualization, which will, in turn, enhance their accuracy and efficiency.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/arvr/monitor.gif",
         title: "Competitive Market",
         description:
           "The use of AR/VR is synonymous with innovation, productivity, and customer satisfaction",
@@ -383,37 +383,37 @@ const allServices = [
     ],
     industry: [
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/arvr/shopping-cart.gif",
         title: "Retail",
         description:
           "Using Virtual Reality and Augmented Reality for virtual fitting and interactive shopping drives customer involvement and sales growth.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/arvr/oil-pump.gif",
         title: "Manufacturing",
         description:
           "AR has assisted in predicting assembly, VR training, and 3D simulations, thus removing errors and costs in the production process.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/arvr/file.gif",
         title: "Real Estate",
         description:
           "VR property tours and AR visualizations are strategies used by clients to explore properties from afar, hence making an informed decision.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/arvr/card.gif",
         title: "Healthcare",
         description:
           "VR/AR is beneficial in medical training, surgery simulations, and patient education, leading to accuracy and treatment results.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/arvr/finger.gif",
         title: "Education",
         description:
           "VR classrooms and AR content are an added advantage for students' learning, engagement, and retention.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/arvr/camera.gif",
         title: "Entertainment",
         description:
           "AR/VR is the foundation of vibrant stories, VR-compatible games, and an array of games, creating a virtual world.",
@@ -461,25 +461,25 @@ const allServices = [
     ],
     benifits: [
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/3d/remote-work.gif",
         title: "Enhanced Visual Communication",
         description:
           "Convey ideas and designs more clearly using photorealistic 3D models, making it easier for clients and stakeholders to understand your vision.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/3d/time-is-money.gif",
         title: "Time & Cost Efficiency",
         description:
           "3D models help identify design flaws early and reduce the need for physical prototypes, saving both time and cost.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/3d/call-to-action.gif",
         title: "High Engagement",
         description:
           "Interactive and visually rich 3D content keeps customers engaged, whether used in sales, education, or marketing.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/3d/scalability.gif",
         title: "Customizable & Scalable",
         description:
           "Our models are built to scale and can be reused across platforms, from web to AR/VR and simulations.",
@@ -487,37 +487,37 @@ const allServices = [
     ],
     industry: [
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/3d/estate-agent.gif",
         title: "Real Estate",
         description:
           "Realistic 3D models of buildings, interiors, and landscapes for walkthroughs, marketing, and architectural planning.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/3d/employee-engagement.gif",
         title: "Manufacturing",
         description:
           "3D representations of machines and tools aid in prototyping, production planning, and maintenance training.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/web/online-shopping.gif",
         title: "E-Commerce",
         description:
           "Photorealistic 3D product models enhance the online shopping experience and reduce product return rates.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/3d/good-game.gif",
         title: "Gaming",
         description:
           "Custom characters, environments, and props designed for use in real-time engines and cinematic cut-scenes.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/web/health-checkup.gif",
         title: "Healthcare",
         description:
           "3D models for medical devices, anatomical structures, and surgical planning support training and diagnostics.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/3d/remote-work.gif",
         title: "Advertising & Media",
         description:
           "Eye-catching 3D visuals and animations used in commercials, product launches, and promotional content.",
@@ -566,25 +566,25 @@ const allServices = [
     ],
     benifits: [
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/game/expert.gif",
         title: "Engaging User Experience",
         description:
           "We prioritize immersive gameplay and storytelling to keep users engaged and coming back for more.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/game/presentation.gif",
         title: "Cross-Platform Compatibility",
         description:
           "Our games are developed to run smoothly across multiple platforms like mobile, desktop, console, and web.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/game/building.gif",
         title: "Scalable Architecture",
         description:
           "Built with scalable architecture to accommodate high traffic and expand to new features or player bases.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/game/support.gif",
         title: "Post-Launch Support",
         description:
           "We provide regular updates, bug fixes, and new content integration for a sustained game lifecycle.",
@@ -592,37 +592,37 @@ const allServices = [
     ],
     industry: [
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/game/script.gif",
         title: "Entertainment",
         description:
           "Developing story-driven, action, adventure, and casual games for pure entertainment and fun.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/web/online-lesson.gif",
         title: "Education",
         description:
           "Educational games that make learning interactive, fun, and effective across age groups and subjects.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/digital/world-health-day.gif",
         title: "Healthcare",
         description:
           "Therapeutic and training games for healthcare, aiding in rehabilitation, awareness, and cognitive training.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/game/marketing.gif",
         title: "Marketing",
         description:
           "Advergames and branded interactive experiences that increase engagement and brand recall.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/arvr/training.gif",
         title: "Training & Simulation",
         description:
           "Realistic simulation games used for employee training, defense, aviation, and industrial learning.",
       },
       {
-        imag: "/home/about-1.jpg",
+        imag: "/gif/game/battle-rope.gif",
         title: "Sports & eSports",
         description:
           "High-performance sports games with real-time multiplayer features and tournament support.",
@@ -671,25 +671,25 @@ const allServices = [
     ],
     benifits: [
       {
-        imag: "/home/uiux-2.jpg",
+        imag: "/gif/uiux/engagement.gif",
         title: "Improved User Engagement",
         description:
           "Visually compelling and user-centric designs increase retention, usability, and interaction across platforms.",
       },
       {
-        imag: "/home/uiux-2.jpg",
+        imag: "/gif/digital/conversion-rate.gif",
         title: "Higher Conversion Rates",
         description:
           "Well-structured interfaces and optimized user flows lead to more sign-ups, purchases, and user actions.",
       },
       {
-        imag: "/home/uiux-2.jpg",
+        imag: "/gif/uiux/id-card.gif",
         title: "Stronger Brand Identity",
         description:
           "Consistent design language reinforces brand recognition and builds trust with your audience.",
       },
       {
-        imag: "/home/uiux-2.jpg",
+        imag: "/gif/uiux/time-to-market.gif",
         title: "Faster Time-to-Market",
         description:
           "Design systems and reusable components help accelerate development and reduce costly design changes later.",
@@ -697,37 +697,37 @@ const allServices = [
     ],
     industry: [
       {
-        imag: "/home/uiux-3.jpg",
+        imag: "/gif/web/online-shopping.gif",
         title: "E-commerce",
         description:
           "We design streamlined shopping experiences that reduce friction, boost conversions, and drive customer loyalty.",
       },
       {
-        imag: "/home/uiux-3.jpg",
+        imag: "/gif/web/health-checkup.gif",
         title: "Healthcare",
         description:
           "We create accessible, user-friendly medical dashboards, appointment booking systems, and telemedicine platforms.",
       },
       {
-        imag: "/home/uiux-3.jpg",
+        imag: "/gif/web/online-lesson.gif",
         title: "Education",
         description:
           "Designing intuitive e-learning platforms and content delivery systems that improve engagement and student outcomes.",
       },
       {
-        imag: "/home/uiux-3.jpg",
+        imag: "/gif/web/bank.gif",
         title: "Finance",
         description:
           "We design secure, easy-to-navigate interfaces for banking apps, financial dashboards, and investment tools.",
       },
       {
-        imag: "/home/uiux-3.jpg",
+        imag: "/gif/web/houses.gif",
         title: "Real Estate",
         description:
           "Intuitive property listing layouts and search experiences that guide users to informed decisions quickly.",
       },
       {
-        imag: "/home/uiux-3.jpg",
+        imag: "/gif/game/script.gif",
         title: "Entertainment",
         description:
           "Crafting immersive and dynamic UIs for media streaming, content platforms, and gaming applications.",

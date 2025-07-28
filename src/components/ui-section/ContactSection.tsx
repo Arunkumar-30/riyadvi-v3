@@ -1,16 +1,55 @@
 "use client";
 import { useState } from "react";
+import axios from "axios";
 
 export default function ContactComponent() {
   const [formData, setFormData] = useState({
-    name: "",
+    fullname: "",
     email: "",
-    phone: "",
-    country: "",
     service: "",
     message: "",
   });
-  console.log(formData, setFormData);
+
+  const [loading, setLoading] = useState(false);
+
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
+  ) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoading(true);
+
+    try {
+      const res = await axios.post(
+        "https://riyadvisoftwaretechnologies.com/contact.php/contact",
+        formData
+      );
+      if (res.status === 200) {
+        alert("Message sent successfully!");
+        setFormData({
+          fullname: "",
+          email: "",
+          service: "",
+          message: "",
+        });
+      } else {
+        alert("Something went wrong!");
+      }
+    } catch (err) {
+      console.error(err);
+      alert("Server error. Try again later.");
+    }
+
+    setLoading(false);
+  };
 
   return (
     <div>
@@ -36,43 +75,55 @@ export default function ContactComponent() {
 
           {/* Right Section - Form */}
           <form
-            className="bg-white p-6 rounded-lg shadow-lg space-y-4"
-            data-aos="fade-left"
-            data-aos-duration="2000"
-            onSubmit={(e) => {
-              e.preventDefault();
-              // handle form submit here
-              alert("Form submitted!");
-            }}
+            onSubmit={handleSubmit}
+            className="bg-white p-6 rounded-lg shadow-lg space-y-4 w-full max-w-xl"
           >
             <input
               type="text"
+              name="fullname"
               placeholder="Full Name"
-              className="w-full px-4 py-3 rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+              value={formData.fullname}
+              onChange={handleChange}
+              className="w-full px-4 py-3 rounded-md border border-gray-300"
             />
-
             <input
               type="email"
+              name="email"
               placeholder="Email"
-              className="w-full px-4 py-3 rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+              value={formData.email}
+              onChange={handleChange}
+              className="w-full px-4 py-3 rounded-md border border-gray-300"
             />
-
-            <select className="w-full px-4 py-3 rounded-md border border-gray-300 bg-white text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <select
+              name="service"
+              required
+              value={formData.service}
+              onChange={handleChange}
+              className="w-full px-4 py-3 rounded-md border border-gray-300 text-gray-600"
+            >
               <option value="">Select a Service</option>
               <option>Web Development</option>
               <option>App Development</option>
               <option>UI/UX Design</option>
             </select>
             <textarea
+              name="message"
               placeholder="Your Message"
-              className="w-full px-4 py-3 rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+              value={formData.message}
+              onChange={handleChange}
+              rows={4}
+              className="w-full px-4 py-3 rounded-md border border-gray-300"
             ></textarea>
 
             <button
               type="submit"
-              className="w-full py-3 rounded-md bg-gradient-to-r from-[#D4AF37] to-[#D4AF37] text-white font-semibold hover:from-indigo-600 hover:to-blue-600 transition shadow-md"
+              disabled={loading}
+              className="w-full py-3 rounded-md bg-gradient-to-r from-[#D4AF37] to-[#D4AF37] text-white font-semibold hover:from-yellow-500 hover:to-yellow-600"
             >
-              Get My Free Bussiness Audit Report
+              {loading ? "Sending..." : "Get My Free Business Audit Report"}
             </button>
           </form>
         </div>

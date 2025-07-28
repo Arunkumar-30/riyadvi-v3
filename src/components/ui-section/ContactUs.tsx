@@ -1,17 +1,86 @@
 "use client";
-import { useState } from "react";
-import CommonBannerComponent from "./CommonBanner";
 
+import { useEffect, useState } from "react";
+import CommonBannerComponent from "./CommonBanner";
+import axios from "axios";
+
+declare global {
+  interface Window {
+    gtag_report_conversion?: (url?: string) => void;
+    gtag?: (...args: any[]) => void;
+  }
+}
 export default function ContactSection() {
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.gtag_report_conversion = function (url?: string) {
+        const callback = () => {
+          if (url) window.location.href = url;
+        };
+        if (window.gtag) {
+          window.gtag("event", "conversion", {
+            send_to: "AW-16921172466/oJ1NCOidjbIaEPKz0oQ_",
+            event_callback: callback,
+          });
+        }
+        return false;
+      };
+    }
+  }, []);
+
   const [formData, setFormData] = useState({
-    name: "",
+    fullname: "",
     email: "",
     phone: "",
-    country: "",
     service: "",
     message: "",
   });
-  console.log(formData, setFormData);
+
+  const [status, setStatus] = useState("");
+
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    try {
+      const res = await axios.post("/contact.php/contact", formData, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+
+      if (res.status === 200) {
+        setStatus("Message sent successfully!");
+        if (window.gtag_report_conversion) {
+          window.gtag_report_conversion();
+        }
+        setFormData({
+          fullname: "",
+          email: "",
+          phone: "",
+          service: "",
+          message: "",
+        });
+      } else {
+        setStatus(
+          res.data.message || "Something went wrong. Please try again."
+        );
+      }
+    } catch (error) {
+      setStatus("An error occurred. Please try again.");
+      console.error("Error sending message:", error);
+    }
+  };
 
   return (
     <div>
@@ -121,41 +190,54 @@ export default function ContactSection() {
 
           {/* Right Section - Form */}
           <form
-            className="bg-[#f5f8fc] p-6 rounded-lg shadow space-y-4"
-            onSubmit={(e) => {
-              e.preventDefault();
-              // handle form submit here
-              alert("Form submitted!");
-            }}
+            className="bg-[#f5f8fc] mt-8 p-6 rounded-lg shadow space-y-4"
+            onSubmit={handleSubmit}
           >
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <input
                 type="text"
+                name="fullname"
                 placeholder="Full Name"
+                value={formData.fullname}
+                onChange={handleChange}
                 data-aos="fade-up"
                 data-aos-duration="2000"
+                required
                 className="px-4 py-3 rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-[#D4AF37]"
               />
               <input
                 type="email"
+                name="email"
                 placeholder="Email"
+                value={formData.email}
+                onChange={handleChange}
                 data-aos="fade-up"
                 data-aos-duration="2000"
+                required
                 className="px-4 py-3 rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-[#D4AF37]"
               />
             </div>
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <input
                 type="tel"
+                name="phone"
                 placeholder="Phone Number"
+                value={formData.phone}
+                onChange={handleChange}
                 data-aos="fade-up"
                 data-aos-duration="2000"
+                required
                 className="px-4 py-3 rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-[#D4AF37]"
               />
               <select
+                name="service"
+                value={formData.service}
+                onChange={handleChange}
                 className="w-full px-4 py-3 rounded-md border border-gray-300 bg-white text-gray-600 focus:outline-none focus:ring-2 focus:ring-[#D4AF37]"
                 data-aos="fade-up"
                 data-aos-duration="2000"
+                required
               >
                 <option value="">Select a Service</option>
                 <option>Web Development</option>
@@ -165,9 +247,13 @@ export default function ContactSection() {
             </div>
 
             <textarea
+              name="message"
               placeholder="Your Message"
+              value={formData.message}
+              onChange={handleChange}
               data-aos="fade-up"
               data-aos-duration="2000"
+              required
               className="w-full px-4 py-3 rounded-md border border-gray-300 bg-white focus:outline-none focus:ring-2 focus:ring-[#D4AF37]"
             ></textarea>
 
@@ -179,6 +265,12 @@ export default function ContactSection() {
             >
               Submit
             </button>
+
+            {status && (
+              <p className="text-sm text-center text-green-600 pt-2">
+                {status}
+              </p>
+            )}
           </form>
         </div>
       </section>
