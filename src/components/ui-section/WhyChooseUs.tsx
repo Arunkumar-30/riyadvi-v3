@@ -120,7 +120,7 @@ import Link from "next/link";
 const WhyChooseUs = () => {
   return (
     <>
-      <section className="bg-white py-16 px-6 md:px-12 lg:px-24 mt-10">
+      <section className="bg-white py-16 px-6 md:px-12 lg:px-24 mt-10 relative">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start justify-between gap-10">
           {/* Left Section */}
           <div className=" space-y-6">

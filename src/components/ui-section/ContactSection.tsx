@@ -85,49 +85,51 @@ export default function ContactComponent() {
             onSubmit={handleSubmit}
             className="bg-white p-6 rounded-lg shadow-lg space-y-4 w-full max-w-xl"
           >
-            <input
-              type="text"
-              name="fullname"
-              placeholder="Full Name"
-              required
-              value={formData.fullname}
-              onChange={handleChange}
-              className="w-full px-4 py-3 rounded-md border border-gray-300"
-            />
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <input
+                type="text"
+                name="fullname"
+                placeholder="Full Name"
+                required
+                value={formData.fullname}
+                onChange={handleChange}
+                className="w-full px-4 py-3 rounded-md border border-gray-300"
+              />
 
-            <input
-              type="email"
-              name="email"
-              placeholder="Email"
-              required
-              value={formData.email}
-              onChange={handleChange}
-              className="w-full px-4 py-3 rounded-md border border-gray-300"
-            />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                required
+                value={formData.email}
+                onChange={handleChange}
+                className="w-full px-4 py-3 rounded-md border border-gray-300"
+              />
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Phone"
+                required
+                value={formData.phone}
+                onChange={handleChange}
+                className="w-full px-4 py-3 rounded-md border border-gray-300"
+              />
 
-            <input
-              type="tel"
-              name="phone"
-              placeholder="Phone"
-              required
-              value={formData.phone}
-              onChange={handleChange}
-              className="w-full px-4 py-3 rounded-md border border-gray-300"
-            />
-
-            <select
-              name="service"
-              required
-              value={formData.service}
-              onChange={handleChange}
-              className="w-full px-4 py-3 rounded-md border border-gray-300 text-gray-600"
-            >
-              <option value="">Select a Service</option>
-              <option>Web Development</option>
-              <option>App Development</option>
-              <option>UI/UX Design</option>
-            </select>
-
+              <select
+                name="service"
+                required
+                value={formData.service}
+                onChange={handleChange}
+                className="w-full px-4 py-3 rounded-md border border-gray-300 text-gray-600"
+              >
+                <option value="">Select a Service</option>
+                <option>Web Development</option>
+                <option>App Development</option>
+                <option>UI/UX Design</option>
+              </select>
+            </div>
             <textarea
               name="message"
               placeholder="Your Message"

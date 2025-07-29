@@ -2,15 +2,37 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 
 const BannerSlider = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const lines = document.querySelectorAll(".line");
+      lines.forEach((line) => {
+        const top = line.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+
+        if (top < windowHeight) {
+          line.classList.add("black_red");
+        } else {
+          line.classList.remove("black_red");
+        }
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <>
+      {/* Line element positioned relative to viewport */}
+
       <div className="relative banner-image">
+        <div className="line"></div>
         <div className="relative w-full overflow-hidden">
           <div className="flex flex-col-reverse sm:flex-row items-center justify-between transition-transform duration-700 ease-in-out h-auto sm:h-[500px] w-full px-6 sm:px-12 py-10 gap-10">
-            {/* Left-side content */}
+            {/* Left Content */}
             <div
               className="text-white max-w-3xl space-y-6 text-start sm:text-left"
               data-aos="fade-up"
@@ -24,9 +46,9 @@ const BannerSlider = () => {
                 From custom websites to high-converting ad campaigns — we help
                 startups and businesses go digital the smart way.
               </p>
-              <div className="flex justify-start sm:justify-start">
+              <div className="flex justify-start">
                 <Link
-                  href={"/contact-us"}
+                  href="/contact-us"
                   className="group rounded-full duration-500 text-white p-3 bg-[#D4AF37] w-[230px] flex items-center justify-center gap-4 text-sm border-none"
                 >
                   <svg

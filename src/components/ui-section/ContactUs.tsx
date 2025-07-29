@@ -237,7 +237,7 @@ export default function ContactSection() {
 
             <button
               type="submit"
-              className="w-full py-3 rounded-md bg-gradient-to-r from-indigo-500 to-[#D4AF37] text-white font-semibold hover:from-indigo-600 hover:to-[#D4AF37] transition shadow-md"
+              className="w-full py-3 rounded-md bg-gradient-to-r from-[#D4AF37] to-[#D4AF37] text-white font-semibold hover:from-yellow-500 hover:to-yellow-600"
               data-aos="fade-up"
               data-aos-duration="2000"
             >
