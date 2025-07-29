@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import React, { useState } from "react";
 import CommonBannerComponent from "./CommonBanner";
 import axios from "axios";
 
@@ -14,17 +14,13 @@ export default function ContactSection() {
   });
 
   const [loading, setLoading] = useState(false);
-  console.log(loading);
 
   const handleChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
     >
   ) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -33,9 +29,15 @@ export default function ContactSection() {
 
     try {
       const res = await axios.post(
-        "https://skella.riyadvisoftwaretechnologies.com/contact.php/contact",
-        formData
+        "https://skella.riyadvisoftwaretechnologies.com/contact.php",
+        formData,
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
       );
+
       if (res.status === 200) {
         alert("Message sent successfully!");
         setFormData({
@@ -45,15 +47,17 @@ export default function ContactSection() {
           service: "",
           message: "",
         });
-      } else {
-        alert("Something went wrong!");
       }
-    } catch (err) {
+    } catch (err: any) {
+      if (err.response?.data?.error) {
+        alert("Error: " + err.response.data.error.join("\n"));
+      } else {
+        alert("Server error. Try again later.");
+      }
       console.error(err);
-      alert("Server error. Try again later.");
+    } finally {
+      setLoading(false);
     }
-
-    setLoading(false);
   };
 
   return (
