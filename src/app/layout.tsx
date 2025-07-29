@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./globals.css";
 import NavbarComponent from "@/components/navbar/Navbar";

@@ -46,8 +46,12 @@ export default function ContactComponent() {
           message: "",
         });
       }
-    } catch (err: any) {
-      if (err.response?.data?.error) {
+    } catch (err: unknown) {
+      if (
+        axios.isAxiosError(err) &&
+        err.response?.data?.error &&
+        Array.isArray(err.response.data.error)
+      ) {
         alert("Error: " + err.response.data.error.join("\n"));
       } else {
         alert("Server error. Try again later.");
