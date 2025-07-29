@@ -1,33 +1,10 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import CommonBannerComponent from "./CommonBanner";
 import axios from "axios";
 
-declare global {
-  interface Window {
-    gtag_report_conversion?: (url?: string) => void;
-    gtag?: (...args: any[]) => void;
-  }
-}
 export default function ContactSection() {
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      window.gtag_report_conversion = function (url?: string) {
-        const callback = () => {
-          if (url) window.location.href = url;
-        };
-        if (window.gtag) {
-          window.gtag("event", "conversion", {
-            send_to: "AW-16921172466/oJ1NCOidjbIaEPKz0oQ_",
-            event_callback: callback,
-          });
-        }
-        return false;
-      };
-    }
-  }, []);
-
   const [formData, setFormData] = useState({
     fullname: "",
     email: "",
@@ -36,34 +13,31 @@ export default function ContactSection() {
     message: "",
   });
 
-  const [status, setStatus] = useState("");
+  const [loading, setLoading] = useState(false);
+  console.log(loading);
 
   const handleChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
     >
   ) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({
-      ...prev,
-      [name]: value,
-    }));
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    try {
-      const res = await axios.post("/contact.php/contact", formData, {
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
+    setLoading(true);
 
+    try {
+      const res = await axios.post(
+        "https://riyadvisoftwaretechnologies.com/contact.php/contact",
+        formData
+      );
       if (res.status === 200) {
-        setStatus("Message sent successfully!");
-        if (window.gtag_report_conversion) {
-          window.gtag_report_conversion();
-        }
+        alert("Message sent successfully!");
         setFormData({
           fullname: "",
           email: "",
@@ -72,14 +46,14 @@ export default function ContactSection() {
           message: "",
         });
       } else {
-        setStatus(
-          res.data.message || "Something went wrong. Please try again."
-        );
+        alert("Something went wrong!");
       }
-    } catch (error) {
-      setStatus("An error occurred. Please try again.");
-      console.error("Error sending message:", error);
+    } catch (err) {
+      console.error(err);
+      alert("Server error. Try again later.");
     }
+
+    setLoading(false);
   };
 
   return (
