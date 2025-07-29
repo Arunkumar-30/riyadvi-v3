@@ -33,7 +33,7 @@ export default function ContactSection() {
 
     try {
       const res = await axios.post(
-        "https://riyadvisoftwaretechnologies.com/contact.php/contact",
+        "https://skella.riyadvisoftwaretechnologies.com/contact.php/contact",
         formData
       );
       if (res.status === 200) {
