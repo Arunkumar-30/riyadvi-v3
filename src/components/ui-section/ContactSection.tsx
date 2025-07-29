@@ -1,11 +1,12 @@
 "use client";
-import { useState } from "react";
+import React, { useState } from "react";
 import axios from "axios";
 
 export default function ContactComponent() {
   const [formData, setFormData] = useState({
     fullname: "",
     email: "",
+    phone: "",
     service: "",
     message: "",
   });
@@ -17,10 +18,7 @@ export default function ContactComponent() {
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
     >
   ) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -29,26 +27,35 @@ export default function ContactComponent() {
 
     try {
       const res = await axios.post(
-        "https://skella.riyadvisoftwaretechnologies.com/contact.php/contact",
-        formData
+        "https://skella.riyadvisoftwaretechnologies.com/contact.php",
+        formData,
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
       );
+
       if (res.status === 200) {
         alert("Message sent successfully!");
         setFormData({
           fullname: "",
           email: "",
+          phone: "",
           service: "",
           message: "",
         });
-      } else {
-        alert("Something went wrong!");
       }
-    } catch (err) {
+    } catch (err: any) {
+      if (err.response?.data?.error) {
+        alert("Error: " + err.response.data.error.join("\n"));
+      } else {
+        alert("Server error. Try again later.");
+      }
       console.error(err);
-      alert("Server error. Try again later.");
+    } finally {
+      setLoading(false);
     }
-
-    setLoading(false);
   };
 
   return (
@@ -87,6 +94,7 @@ export default function ContactComponent() {
               onChange={handleChange}
               className="w-full px-4 py-3 rounded-md border border-gray-300"
             />
+
             <input
               type="email"
               name="email"
@@ -96,6 +104,17 @@ export default function ContactComponent() {
               onChange={handleChange}
               className="w-full px-4 py-3 rounded-md border border-gray-300"
             />
+
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Phone"
+              required
+              value={formData.phone}
+              onChange={handleChange}
+              className="w-full px-4 py-3 rounded-md border border-gray-300"
+            />
+
             <select
               name="service"
               required
@@ -108,6 +127,7 @@ export default function ContactComponent() {
               <option>App Development</option>
               <option>UI/UX Design</option>
             </select>
+
             <textarea
               name="message"
               placeholder="Your Message"
